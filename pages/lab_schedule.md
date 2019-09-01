@@ -11,17 +11,17 @@ Colby College is supportive of the religious practices of its students, faculty,
 
 Week | Date   | Lab | Assignments
 :---:|--------|-----|---------
-1    | 9/3    | **No lab** |
-2    | 9/10   | Lab orientation, begin Population Growth Experiment, begin Decomposition Experiment | [Slides](https://drive.google.com/open?id=1htIlgoClavB1E2B9fjL4lsHLh72U7H9uu4TdJdoIp-M), [Population Growth Experiment protocol](https://drive.google.com/open?id=1gPMUtf3wx62JfIJDE_TUlZ9f8OZx3yMe), [Decomposition Experiment methods](https://drive.google.com/open?id=1kMMlwJGu5EokTAU1Lf5-KwBOa7duxcC8)
-3    | 9/17   | Environmental Gradients Experiment on the coast | [Gradient Experiment Handout](https://drive.google.com/open?id=1hN0v0pl5yHWSwHVkcIyqIxpayO0I2W8-)
-4    | 9/24   | Analysis of Environmental Gradients Experiment | [Coast data](https://drive.google.com/open?id=1xy89ZtUi7OL6rvvDfENiR3JRARc3cfJx), [Analysis instructions](/GradientExperiment.html)
-5    | 10/1   | Population Growth Experiment analysis | [Population growth instructions](/PopGrowth.html), [ParameterSheet](https://docs.google.com/spreadsheets/d/16WxgOi0buqRHOpZQnfrSJjYXGkUxld6MXGvG2xXcQ1Y/edit?usp=sharing), [SuggestedIntroPapers](https://drive.google.com/drive/folders/1HZrgpSyyu3J_XS9zfprJjfvHySfC606J?usp=sharing)
-6    | 10/8   | Bog lab |
-7    | 10/15  | **No lab** |
-8    | 10/22  | Bog lab analysis | [MorphOfCompetitionWorksheet](https://drive.google.com/open?id=15APlh8Re4odfQyVqiPLy2iWLThQ23oTxjcM8ENkJ1Pw), [AnnotatedBib](https://drive.google.com/open?id=1RLqFyKETRettvv02JWS7bJcG2J9BxPG3cNKqhVZb76s)
-9    | 10/29  | Edge Effects experiment | [PapersForAnnotatedBib](https://drive.google.com/open?id=1ly8QI4kq3kD3qtRw-xczFYXlrjL-32bq), [Annotated Bib. example](https://drive.google.com/open?id=1MVsFfCA23EtJkBhCYrdxffN3ye1wR694), [Edge effects experimental methods](https://drive.google.com/open?id=1zI0XCz0Hf3FzwbFA4bXOL0Q3eTqfJJD0OkYH8D6VI4g), [Enter data here](https://docs.google.com/spreadsheets/d/1h4p09tx0eqlxA8wFFU9tYIkns4lLSeC_1988denCdjs/edit?usp=sharing)
-10   | 11/5   | Edge Effects experiment analysis| [tree data](https://drive.google.com/open?id=14qTjtmWFR1ps41BNBYHFafc8AHlfDmux), [site data](https://drive.google.com/open?id=150aFoXsmC1rlSyXf8p0RyORblNqk1cMQ)
-11   | 11/12  | Finish Decomposition Experiment, and Decomposition Experiment analysis part I| [DecompDataEntry](https://docs.google.com/spreadsheets/d/11VHZ0cqQREkSajZk0iK1hqgD3rJXC3_eeiDGHsRpTkg/edit?usp=sharing)
-12   | 11/19  | **No lab** |
-13   | 11/26  | Decomposition Experiment analysis part II | [Decomposition experiment presentation topics](/DecompTopics.md), [Class decomposition data](https://drive.google.com/open?id=1au1H28HmWVhfJzP9OIF_F3H7K26l2XbZ), [Class parameter estimates](https://drive.google.com/open?id=1mA7TFNFNioUVyUzU3ipzYXpvLPakKxWr)
-14   | 12/3   | Decomposition Experiment presentation |
+1    | 9/2    | **No lab** |
+2    | 9/9   | Lab orientation, begin Population Growth Experiment, begin Decomposition Experiment | 
+3    | 9/16   | Natural History Observations | 
+4    | 9/23   | Environmental Gradients Experiment on the coast | 
+5    | 09/30   | Analysis of Environmental Gradients Experiment | 
+6    | 10/7   | Population Growth Experiment analysis |
+7    | 10/14  | Forest Ecology Experiment |
+8    | 10/21  | **No lab** | 
+9    | 10/28  | Forest Ecology analysis | 
+10   | 11/4   | Decomposition Experiment data collection | 
+11   | 11/11  | Decomposition Experiment analysis| 
+12   | 11/18  | **No lab** |
+13   | 11/25  | Decomposition Experiment presentation preparation | 
+14   | 12/2   | Decomposition Experiment presentation |

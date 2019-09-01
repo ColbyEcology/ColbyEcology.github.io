@@ -17,22 +17,22 @@ Colby College is supportive of the religious practices of its students, faculty,
 
 Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture material |
 :---:|:-----:|--------|---------|---------|-------------|
-1    | 9/4   | Introduction to class and ecology in general | | Quiz 1 (Q1) on Fri., Problem set 1 |
-2    | 9/11  | | Part II Introduction, II.3.1–2 | Q2  |
-3    | 9/18  | How are populations regulated? | II.2.1–2, II.1.1 | |
-4    | 9/25  | | I.6, II.4, 11.2.3–4, 1.10 | Q4 |
-5    | 10/2  | | I.1, I.12| Q5 |
-6    | 10/9  | | II.11, II.6, II.7.1–3| Q6 |
-7    | 10/16 | | Review for exam | Q7 |
-8    | 10/23 | Ecosystems and community ecology | III.1  | Q8 |
+1    | 9/4   | Introduction to class and ecology in general | | Quiz 1 (Q1) on Fri., Problem set 1 (PS1) |
+2    | 9/11  | | | Q2, PS2  |
+3    | 9/18  | How are populations regulated? | | |
+4    | 9/25  | |  | Q4 |
+5    | 10/2  | | | Q5 |
+6    | 10/9  | | | Q6 |
+7    | 10/16 | | | Q7 |
+8    | 10/23 | Ecosystems and community ecology | | Q8 |
 &nbsp; | 10/24/25<sup>3</sup> | **Exam I** | | | |
-9    | 10/30 | | III.7, III.6 | Q9 |
-10   | 11/6  | | III.9, III.11, III.12 | Q10 |
-11   | 11/13 | | III.10 | Q11 |  |
-12   | 11/20 | |  V.5 | |  |
-13   | 11/27 | | III.4, III.17 | Q12 |
+9    | 10/30 | | | Q9 |
+10   | 11/6  | | | Q10 |
+11   | 11/13 | | | Q11 |  |
+12   | 11/20 | | | |  |
+13   | 11/27 | | | Q12 |
 &nbsp; | 11/29/30<sup>3</sup> | **Exam II** | | | |
-14   | 12/4  | | III.16 | |  |
+14   | 12/4  | | | |  |
 &nbsp; |  | **Exam III** | | | |
 
 {::comment}
