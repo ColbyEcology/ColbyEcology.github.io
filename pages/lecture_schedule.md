@@ -11,29 +11,29 @@ Colby College is supportive of the religious practices of its students, faculty,
 
 ---
 
-<sup>1</sup>(1) Unless otherwise noted, readings will be from Levins and (2) "Reading" should be read before the Monday where it's listed. I will have the readings posted one week before we begin covering the material, at the latest.  
-<sup>2</sup>(1) Quizzes will be given on Fridays, (2) Problem sets will be assigned on the Friday they are listed below, and (3) Problem sets are due one week (Fridays) from when they are assigned.  
-<sup>3</sup>Exams will be given in the evenings between 7 and 9 PM on either of the two offered days (your choice).
+<sup>1</sup>(i) Unless otherwise noted, readings will be from Levins and (ii) "Reading" should be read before the Monday where it's listed. I will have the readings posted one week before we begin covering the material, at the latest.  
+<sup>2</sup>(i) Quizzes will be given on Fridays, (ii) Problem sets will be assigned on the Friday they are listed below, and (iii) Problem sets are due one week (Fridays) from when they are assigned.  
+<sup>3</sup>Exams will be given in the evenings between 7 and 9 PM on Mondays, and a final exam will be .
 
-Week | Date  | Topics | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture material |
-:---:|:-----:|--------|---------|---------|-------------|
-1    | 9/4   | Introduction to class and ecology in general | | Quiz 1 (Q1) on Fri., Problem set 1 (PS1) |
-2    | 9/11  | | | Q2, PS2  |
-3    | 9/18  | How are populations regulated? | | |
-4    | 9/25  | |  | Q4 |
-5    | 10/2  | | | Q5 |
-6    | 10/9  | | | Q6 |
-7    | 10/16 | | | Q7 |
-8    | 10/23 | Ecosystems and community ecology | | Q8 |
-&nbsp; | 10/24/25<sup>3</sup> | **Exam I** | | | |
-9    | 10/30 | | | Q9 |
-10   | 11/6  | | | Q10 |
-11   | 11/13 | | | Q11 |  |
-12   | 11/20 | | | |  |
-13   | 11/27 | | | Q12 |
-&nbsp; | 11/29/30<sup>3</sup> | **Exam II** | | | |
-14   | 12/4  | | | |  |
-&nbsp; |  | **Exam III** | | | |
+Week   | Date              | Topics                            | Readings<sup>1</sup> | Assignments<sup>2</sup>| Lecture material |
+:-----:|:-----------------:|-----------------------------------|---------|---------|-------------|
+1      | 09/02             | Introduction to class and ecology | | Quiz 01 (Q01) on Fri., Problem set 1 (PS01) |
+2      | 09/09             |                                   | | Q02, PS02 |
+3      | 09/16             |                                   | | Q03, PS03 |
+4      | 09/23             |                                   | | Q04, PS04 |
+5      | 09/30             |                                   | | Q05, PS05 |
+6      | 10/07             |                                   | | Q06, PS06 |
+7      | 10/14             |                                   | | Q07, PS07 |
+&nbsp; | 10/21<sup>3</sup> | **Exam I**                        | |           | |
+8      | 10/21             |                                   | | Q08, PS08 |
+9      | 10/28             |                                   | | Q09, PS09 |
+10     | 11/04             |                                   | | Q10, PS10 |
+&nbsp; | 11/11<sup>3</sup> | **Exam II**                       | |           | |
+11     | 11/11             |                                   | | Q11, PS11 |  |
+12     | 11/18             |                                   | | Q12, PS12 |  |
+13     | 11/25             |                                   | |           |
+14     | 12/02             |                                   | |           |  |
+&nbsp; |                   | **Exam III**                      | |           | |
 
 {::comment}
 [//]: # pandoc lecture_schedule.md --latex-engine=xelatex -o lecture_schedule.pdf -V geometry:margin=0.5in
