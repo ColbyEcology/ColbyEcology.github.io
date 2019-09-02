@@ -22,9 +22,10 @@ Laboratory: Olin 214
 Laboratory phone: 207-859-5744  
 Calendar:  
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=colby.edu_t88bur7ih5fsbpcj3ro1jorffk%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FNew_York" style="border-width:0" width="650" height="400" frameborder="0" scrolling="no"></iframe>
-## Office hours
-Mondays, 1–3 PM  
-Wednesdays, 10 AM–noon
+
+## Student hours
+Wednesdays, 4–6 PM
+Fridays, 1–3 PM
 
 ## Titles, names, and pronouns
 Students are often curious about how to address their professors. I am comfortable with Dr. Moore, Professor Moore, or Chris. The pronouns that I go by are he/him. I will be asking for your preferred name and pronoun the first day of class on a notecard. Ultimately, what's most important to me is that we create a culture of mutual respect in the classroom, beginning with how we address one another.
@@ -34,11 +35,11 @@ Students are often curious about how to address their professors. I am comfortab
 Name            | Lab section(s) | Email           | Office   |
 :---------------|:---------------|:----------------|:---------|
 Justin Becknell | C1             | justin.becknell | Olin 224 |
-Abby Pearson    | A2, B2         | abby.pearson    | Olin 242 |
+Abby Pearson    | A2, B2         | abby.pearson    | Olin 306 |
 Sarah Staffiere | A1, B1         | sarah.staffiere | Olin 305 |
 
 # Meeting dates, times, and location for Lecture B
-MWF, 9&#8212;9:50 AM, in Arey 005
+MWF, 9&#8212;9:50 AM, in Olin basement
 
 # Textbook
 *The Princeton Guide to Ecology*, 2012, edited by Simon A. Levin, published by Princeton University Press  
@@ -59,15 +60,13 @@ E. Gain first-hand familiarity with local ecological communities.
 
 ## Lecture: 0.70 of the course grade
 
-Item                | Proportion of course    | Proportion of lecture (rounded) |
-:-------------------|:------------------------|:--------------------------------|
-Quizzes             | 0.05 (0.005 each<sup>&dagger;</sup>) | 0.07 (0.007 each)  |
-Problem sets        | 0.20 (0.02 each<sup>&dagger;</sup>)  | 0.29 (0.03 each)   |
-Examination I       | 0.15                    | 0.21                            |
-Examination II      | 0.15                    | 0.21                            |
-Examination III     | 0.15                    | 0.21                            |
-
-<sup>&dagger;</sup> The two lowest scores are dropped
+Item                | Proportion of course                 | Proportion of lecture (rounded) |
+:-------------------|:-------------------------------------|:--------------------------------|
+Quizzes             | 0.06 (0.005 each)                    | 0.09 (0.007 each)               |
+Problem sets        | 0.22 (0.02 each)                     | 0.31 (0.03 each)                |
+Examination I       | 0.14                                 | 0.20                            |
+Examination II      | 0.14                                 | 0.20                            |
+Examination III     | 0.14                                 | 0.20                            |
 
 - **Quizes** are frequent, low-stakes assessments designed to help you learn through recall and help performance on higher-stakes in-class assessments.
 - **Problem sets** will include several quantitative and conceptual problems that are designed to help you apply and more deeply understand some of the concepts covered in the lecture material.  There will be one probem set per Unit, and they will be disributed in lecture and due at the beginning of lecture, two meetings later.
@@ -75,21 +74,26 @@ Examination III     | 0.15                    | 0.21                            
 
 ## Laboratory: 0.30 of the course grade
 
-Assignment              | Proportion of course | Proportion of laboratory (rounded) |
+Item              | Proportion of course | Proportion of laboratory (rounded) |
 :-----------------------|:---------------------|:-----------------------------------|
-Participation           | 0.02                 | 0.07                               |
-Population growth lab   | 0.04                 | 0.13                               |
-Gradient lab            | 0.04                 | 0.13                               |
-Community sampling lab  | 0.04                 | 0.13                               |
-Landscape lab           | 0.08                 | 0.27                               |
+Natural history lab     | 0.02                 | 0.07                               |
+Coastal gradient lab    | 0.04                 | 0.13                               |
+Population growth lab   | 0.06                 | 0.13                               |
+Forest ecology lab      | 0.08                 | 0.27                               |
 Decomposition lab       | 0.08                 | 0.27                               |
+Participation           | 0.02                 | 0.07                               |
 
-- **Participation** will evaluate your contribution to lab.
 - **Population growth lab** will be a manipulative experiment and report that will assess population growth in a controlled environment.
-- **Gradient lab** will be an observational experiment and report that will assess the relationship between abundance along environmental gradients.
-- **Community sampling lab** will be an observational experiment and report that will learn how to estimate the number of species in an area.
-- **Landscape lab** will be an observational experiment and report that will assess how landscape structure affects community composition.
+- **Coastal gradient lab** will be an observational experiment and report that will assess the relationship between abundance along environmental gradients.
+- **Natural history lab**.
+- **Forest ecology lab** will be an observational experiment and report that will assess how landscape structure affects community composition.
 - **Decomposition lab** will be a manipulative experiment and report that will assess how environmental factors affect the breakdown of organic matter.
+- **Participation** will evaluate your contribution to lab.
+
+## Policy on late and missing assignments
+- Keys to Problem Sets are posted immediately after class, so no late Problem Sets will allowed to maximize academic honesty
+- Keys to Quizzes are posted immediately after class, so no make-up Quizzes will be allowed to maximize academic honesty
+- I am a very resonable person. If you have valid reason for missing a Problem Set or Quiz, please let contact me; in advance if possible. Furthermore, I know many of you are high-achievers. If you have times/weeks that you feel overburdened, I am willing to create alternative assignments for you.
 
 ## Attendance
 Role will not be taken in lecture, but regular attendance is necessary for you to succeed in this course. Attendance in lab is mandatory.
@@ -102,6 +106,7 @@ Academic dishonesty includes, but is not limited to: violating clearly stated ru
 Academic dishonesty is a serious offense against the college. Sanctions for academic dishonesty are assigned by an academic review board and may include failure on the assignment, failure in the course, or suspension or expulsion from the College.
 
 For more on recognizing and avoiding plagiarism, see the library guide: [link](libguides.colby.edu/avoidingplagiarism)
+
 
 # Statment on Diversity
 It is my intent that students from diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. I expect you to feel challenged and sometimes outside of your comfort zone in this course, but it is my intent to present materials and activities that are inclusive and respectful of all persons, no matter their gender, sexual orientation, disability, age, socioeconomic status, ethnicity, race, culture, perspective, and other background characteristics. 
@@ -118,6 +123,7 @@ Students should be aware that faculty members are considered responsible employe
 
 To learn more about sexual misconduct or report an incident, visit [http://www.colby.edu/sexualviolence/](http://www.colby.edu/sexualviolence/).
 
+
 # Academic Accommodations
 I am available to discuss academic accommodations that any student with a documented disability may require. Please note that you’ll need to provide a letter from the Dean of Studies Office documenting your approved accommodations. *Please meet with me within two weeks of the start of the semester to make a request for accommodations so that we can work together with the College to make the appropriate arrangements for you.*  Kate McLaughlin, Associate Director of Access and Disability Services (kmclaugh@colby.edu) is the primary contact for accommodations and any questions related to educational testing and documentation.  
 
@@ -125,7 +131,9 @@ Mental health:  I care about my students’ well-being and understand they may f
 
 
 # Athletic Participation
-While Colby College is supportive of athletic participation by its students, academics takes priority over athletics. Both NCAA and Colby rules prohibit missing class for practices. In the case of overlapping commitments between class and athletic competitions, the student must meet with the professor as soon as possible to discuss these overlaps. The student may request permission to miss class and make up the missed work; the instructor has final authority either to grant or to withhold permission
+While Colby College is supportive of athletic participation by its students, academics takes priority over athletics. Both NCAA and Colby rules prohibit missing class for practices. In the case of overlapping commitments between class and athletic competitions, the student must meet with the professor *the first week of class* to discuss these overlaps. The student may request permission to miss class and make up the missed work; the instructor has final authority either to grant or to withhold permission.
+
+# Students
 
 {::comment}
 [//]: <link rel="stylesheet" type="text/css" href="mystyle.css">
