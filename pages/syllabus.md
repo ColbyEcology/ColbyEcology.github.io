@@ -74,7 +74,7 @@ Examination III     | 0.14                                 | 0.20               
 
 ## Laboratory: 0.30 of the course grade
 
-Item              | Proportion of course | Proportion of laboratory (rounded) |
+Item                    | Proportion of course | Proportion of laboratory (rounded) |
 :-----------------------|:---------------------|:-----------------------------------|
 Natural history lab     | 0.02                 | 0.07                               |
 Coastal gradient lab    | 0.04                 | 0.13                               |
@@ -133,7 +133,6 @@ Mental health:  I care about my students’ well-being and understand they may f
 # Athletic Participation
 While Colby College is supportive of athletic participation by its students, academics takes priority over athletics. Both NCAA and Colby rules prohibit missing class for practices. In the case of overlapping commitments between class and athletic competitions, the student must meet with the professor *the first week of class* to discuss these overlaps. The student may request permission to miss class and make up the missed work; the instructor has final authority either to grant or to withhold permission.
 
-# Students
 
 {::comment}
 [//]: <link rel="stylesheet" type="text/css" href="mystyle.css">
