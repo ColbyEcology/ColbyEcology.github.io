@@ -43,16 +43,17 @@ MWF, 9&#8212;9:50 AM, in Olin 019B
 
 # Textbook
 *The Princeton Guide to Ecology*, 2012, edited by Simon A. Levin, published by Princeton University Press  
-Freely access book through Colby Library: [link](http://cbbcat.net/record=b3551477~S19)
+Freely access the book through Colby Library: [link](http://cbbcat.net/record=b3551477~S19)
 
 # Website
 [http://colbyecology.github.io](http://colbyecology.github.io)
 
 
 # Learning Goals for Ecology (BI271)
-A. Learn the conceptual framework and vocabulary for the science of ecology.  
-B. Mature in ability to assess scientific literature, with a special emphasis on data interpretation.  
-C. Apply concepts and principles to topical ecological issues having implications for policy or management.  
+A. Learn the conceptual foundation for the science of ecology; including the history of the field and hierarchy of population-, community-, and ecosystem-level studies.  
+B. Understand that ecological systems are complex systems with many interacting entities; including ways we study such systems.  
+B. Mature in ability to assess scientific literature, with an emphasis on data interpretation.  
+C. Apply ecological concepts to issues having implications for policy or management.  
 D. Gain direct experience with generating hypotheses, developing experimental designs, and applying statistical analyses to ecological data.  
 E. Gain first-hand familiarity with local ecological communities.
 
@@ -60,17 +61,18 @@ E. Gain first-hand familiarity with local ecological communities.
 
 ## Lecture: 0.70 of the course grade
 
-Item                | Proportion of course                 | Proportion of lecture (rounded) |
-:-------------------|:-------------------------------------|:--------------------------------|
-Quizzes             | 0.06 (0.005 each)                    | 0.09 (0.007 each)               |
-Problem sets        | 0.22 (0.02 each)                     | 0.31 (0.03 each)                |
-Examination I       | 0.14                                 | 0.20                            |
-Examination II      | 0.14                                 | 0.20                            |
-Examination III     | 0.14                                 | 0.20                            |
+Item                      | Proportion of course                 | Proportion of lecture (rounded) |
+:-------------------------|:-------------------------------------|:--------------------------------|
+Quizzes<sup>&#8224;</sup> | 0.05 (0.005 each)                    | 0.07 (0.007 each)               |
+Problem sets              | 0.22 (0.02 each)                     | 0.31 (0.03 each)                |
+Examination I             | 0.14                                 | 0.20                            |
+Examination II            | 0.14                                 | 0.20                            |
+Examination III           | 0.15                                 | 0.21                            |
+<sup>&#8224;</sup>The two lowest quiz scores will be dropped
 
 - **Quizes** are frequent, low-stakes assessments designed to help you learn through recall and help performance on higher-stakes in-class assessments.
 - **Problem sets** will include several quantitative and conceptual problems that are designed to help you apply and more deeply understand some of the concepts covered in the lecture material.  There will be one probem set per Unit, and they will be disributed in lecture and due at the beginning of lecture, two meetings later.
-- **Examinations** are a method used to assess your understanding of the lecture material while simultaneously rewarding those who have mastered it.
+- **Examinations** are a method used to assess your understanding of the lecture material while simultaneously encouraging the practice of recall. Examinations will be cumulative, with an emphasis on the new material.
 
 ## Laboratory: 0.30 of the course grade
 

@@ -13,7 +13,7 @@ Colby College is supportive of the religious practices of its students, faculty,
 
 <sup>1</sup>(i) Unless otherwise noted, readings will be from Levins and (ii) "Reading" should be read before the Monday where it's listed. I will have the readings posted one week before we begin covering the material, at the latest.  
 <sup>2</sup>(i) Quizzes will be given on Fridays, (ii) Problem sets will be assigned on the Friday they are listed below, and (iii) Problem sets are due one week (Fridays) from when they are assigned.  
-<sup>3</sup>Exams will be given in the evenings between 7 and 9 PM on Mondays, and a final exam will be .
+<sup>3</sup>Exams will be given in the evenings between 7 and 9 PM on Mondays in Olin 01, and a final exam will be .
 
 Week   | Date              | Topics                            | Readings<sup>1</sup> | Assignments<sup>2</sup>                     | Lecture material |
 :-----:|:-----------------:|-----------------------------------|----------------------|---------------------------------------------|------------------|
@@ -27,7 +27,7 @@ Week   | Date              | Topics                            | Readings<sup>1<
 07     | 10/14             |                                   |                      | Q07, PS07                                   |
 08     | 10/21             | Multi-species population ecology  |                      | Q08, PS08                                   |
 09     | 10/28             | Community ecology                 |                      | Q09, PS09                                   |
-10     | 11/04             |                                   |                      | Q10, No PS                                   |
+10     | 11/04             |                                   |                      | Q10, No PS                                  |
 &nbsp; | 11/11<sup>3</sup> | **Exam II**                       |                      |                                             | |
 11     | 11/11             | Ecosystem ecology                 |                      | Q11, PS10                                   |  |
 12     | 11/18             |                                   |                      | Q12, PS11                                   |  |
