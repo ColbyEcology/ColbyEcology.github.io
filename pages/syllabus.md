@@ -6,9 +6,9 @@ feature-img: "assets/img/features/forest-1390865_edit.jpg"
 tags: [Syllabus, Contact, Policies]
 ---
 
-Ecology (BI271) Lecutre B, 4 credit hours, fall semester 2018
+Ecology (BI271) Lecutre B, 4 credit hours, Fall semester 2019
 
-Ecology is the study of the spatial and temporal patterns of the distribution and abundance of organisms, including causes and consequences.  Studying these patterns provides us with the scientific foundation for understanding natural processes and environmental problems. This course will examine ecological interactions at a wide range of scales from the molecular level, through individuals, populations, communities, ecosystems, and ultimately to the biosphere. We will study how these interactions produce the patterns and processes we observe around the world. In the field-based laboratory we will learn to generate testable ecological hypotheses, develop experimental designs to test our hypotheses, and use statistical inference to quantitatively assess the outcome of our experiments, while gaining first-hand familiarity with local ecological communities.
+Ecology is the study of the spatial and temporal patterns of the distribution and abundance of organisms, including causes and consequences. Studying ecology provides us with the scientific foundation for understanding natural processes and environmental problems. This course will aims to provide students with a broad base of understanding ecology across a wide range of scales from the molecular level, through individuals, populations, communities, ecosystems, and ultimately to the biosphere. The lecture will be where you will In the field-based laboratory you will learn to generate testable ecological hypotheses, develop experimental designs to test our hypotheses, and use statistical inference to quantitatively assess the outcome of our experiments, while gaining first-hand familiarity with local ecological communities.
 
 * TOC
 {:toc}
@@ -24,7 +24,7 @@ Calendar:
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=colby.edu_t88bur7ih5fsbpcj3ro1jorffk%40group.calendar.google.com&amp;color=%2328754E&amp;ctz=America%2FNew_York" style="border-width:0" width="650" height="400" frameborder="0" scrolling="no"></iframe>
 
 ## Student hours
-Wednesdays, 4–6 PM
+Wednesdays, 4–6 PM   
 Fridays, 1–3 PM
 
 ## Titles, names, and pronouns
@@ -39,7 +39,7 @@ Abby Pearson    | A2, B2         | abby.pearson    | Olin 306 |
 Sarah Staffiere | A1, B1         | sarah.staffiere | Olin 305 |
 
 # Meeting dates, times, and location for Lecture B
-MWF, 9&#8212;9:50 AM, in Olin basement
+MWF, 9&#8212;9:50 AM, in Olin 019B
 
 # Textbook
 *The Princeton Guide to Ecology*, 2012, edited by Simon A. Levin, published by Princeton University Press  
@@ -85,9 +85,9 @@ Participation           | 0.02                 | 0.07                           
 
 - **Population growth lab** will be a manipulative experiment and report that will assess population growth in a controlled environment.
 - **Coastal gradient lab** will be an observational experiment and report that will assess the relationship between abundance along environmental gradients.
-- **Natural history lab**.
+- **Natural history lab** will be an observational lab demonstrating various ecological methods for studying different taxonomic groups and environmental conditions.
 - **Forest ecology lab** will be an observational experiment and report that will assess how landscape structure affects community composition.
-- **Decomposition lab** will be a manipulative experiment and report that will assess how environmental factors affect the breakdown of organic matter.
+- **Decomposition lab** will be a manipulative experiment and report that will assess what factors affect the breakdown of organic matter.
 - **Participation** will evaluate your contribution to lab.
 
 ## Policy on late and missing assignments
@@ -108,7 +108,7 @@ Academic dishonesty is a serious offense against the college. Sanctions for acad
 For more on recognizing and avoiding plagiarism, see the library guide: [link](libguides.colby.edu/avoidingplagiarism)
 
 
-# Statment on Diversity
+# Diversity
 It is my intent that students from diverse backgrounds and perspectives be well-served by this course, that students' learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength and benefit. I expect you to feel challenged and sometimes outside of your comfort zone in this course, but it is my intent to present materials and activities that are inclusive and respectful of all persons, no matter their gender, sexual orientation, disability, age, socioeconomic status, ethnicity, race, culture, perspective, and other background characteristics. 
 
 I have attempted to avoid scheduling exams during major religious holidays. If, however, I have inadvertently scheduled an exam or major deadline that creates a conflict with your religious observances, please let me know within two weeks of the start of classes so that we can make other arrangements.  Colby College is supportive of the religious practices of its students, faculty, and staff. The College is committed to ensuring that all students are able to observe their religious beliefs without academic penalty.  

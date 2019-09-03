@@ -33,7 +33,7 @@ Week   | Date              | Topics                            | Readings<sup>1<
 12     | 11/18             |                                   |                      | Q12, PS11                                   |  |
 13     | 11/25             |                                   |                      |                                             |
 14     | 12/02             | Ecology of the Anthropocene       |                      |                                             |  |
-&nbsp; |                   | **Exam III**                      |                      |                                             | |
+&nbsp; | 12/12 @ 9 AM      | **Exam III**                      |                      |                                             | |
 
 {::comment}
 [//]: # pandoc lecture_schedule.md --latex-engine=xelatex -o lecture_schedule.pdf -V geometry:margin=0.5in
