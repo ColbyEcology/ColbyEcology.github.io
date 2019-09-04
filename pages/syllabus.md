@@ -68,6 +68,7 @@ Problem sets              | 0.22 (0.02 each)                     | 0.31 (0.03 ea
 Examination I             | 0.14                                 | 0.20                            |
 Examination II            | 0.14                                 | 0.20                            |
 Examination III           | 0.15                                 | 0.21                            |
+
 <sup>&#8224;</sup>The two lowest quiz scores will be dropped
 
 - **Quizes** are frequent, low-stakes assessments designed to help you learn through recall and help performance on higher-stakes in-class assessments.
