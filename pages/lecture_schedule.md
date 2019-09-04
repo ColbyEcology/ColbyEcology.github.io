@@ -16,8 +16,8 @@ Colby College is supportive of the religious practices of its students, faculty,
 <sup>3</sup>Exams will be given in the evenings between 7 and 9 PM on Mondays in Olin 01, and a final exam will be .
 
 Week   | Date              | Topics                            | Readings<sup>1</sup> | Assignments<sup>2</sup>                     | Lecture material |
-:-----:|:-----------------:|-----------------------------------|----------------------|---------------------------------------------|------------------|
-01     | 09/02             | Introduction to class and ecology |                      | Quiz 01 (Q01) on Fri., Problem set 1 (PS01) | [Intros](https://drive.google.com/open?id=1SL1gJLQrY0hPYy_KQxJm2VZWeWl38B5NXEQog4T3XD4)
+:-----:|:-----------------:|-----------------------------------|------------------------|---------------------------------------------|------------------|
+01     | 09/02             | Introduction to class and ecology | No readings          | Quiz 01 (Q01) on Fri., Problem set 1 (PS01) | [Intros](https://drive.google.com/open?id=1SL1gJLQrY0hPYy_KQxJm2VZWeWl38B5NXEQog4T3XD4)
 02     | 09/09             | Single-species population ecology |                      | Q02, PS02                                   |
 03     | 09/16             |                                   |                      | Q03, PS03                                   |
 04     | 09/23             |                                   |                      | Q04, PS04                                   |
