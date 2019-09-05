@@ -15,7 +15,7 @@ Ecology is the study of the spatial and temporal patterns of the distribution an
 
 # Professor information
 Dr. Christopher M. Moore  
-Email: [cmmoore@colby.edu](cmmoore@colby.edu) (Note I have a 24-hour email policy)  
+Email: [cmmoore@colby.edu](cmmoore@colby.edu) (Please allow at least 24 hours for a response)  
 Office: Olin 216  
 Office phone: 207-859-5746  
 Laboratory: Olin 214  
