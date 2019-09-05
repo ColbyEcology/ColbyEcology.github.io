@@ -21,7 +21,7 @@ Office phone: 207-859-5746
 Laboratory: Olin 214  
 Laboratory phone: 207-859-5744  
 Calendar:  
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Y21tb29yZUBjb2xieS5lZHU&amp;src=Y29sYnkuZWR1X3Q4OGJ1cjdpaDVmc2JwY2ozcm8xam9yZmZrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Y29sYnkuZWR1X2ZvNmI1OXRkNmxodXJwMG9tZzNhbzJ1Yjc0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Y29sYnkuZWR1XzB2bjIya21sNm9zbjFqaTczZ2loNGFlY2ZvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23002878&amp;color=%2333B679&amp;color=%239E69AF&amp;color=%23616161&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showCalendars=1&amp;showTz=1&amp;mode=WEEK" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FNew_York&amp;src=Y21tb29yZUBjb2xieS5lZHU&amp;src=Y29sYnkuZWR1X3Q4OGJ1cjdpaDVmc2JwY2ozcm8xam9yZmZrQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Y29sYnkuZWR1X2ZvNmI1OXRkNmxodXJwMG9tZzNhbzJ1Yjc0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;src=Y29sYnkuZWR1XzB2bjIya21sNm9zbjFqaTczZ2loNGFlY2ZvQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23002878&amp;color=%2333B679&amp;color=%239E69AF&amp;color=%23616161&amp;showTitle=0&amp;showNav=1&amp;showDate=1&amp;showPrint=0&amp;showCalendars=1&amp;showTz=1&amp;mode=WEEK" style="border-width:0" width="650" height="400" frameborder="0" scrolling="no"></iframe>
 
 ## Student hours
 Tuesdays, 8–10 AM, Olin 216  
