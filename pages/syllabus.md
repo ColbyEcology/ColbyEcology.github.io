@@ -25,8 +25,8 @@ Calendar:
 
 ## Student hours
 Tuesdays, 8–10 AM, Olin 216  
-Wednesdays, 4–6 PM, location TBD   
-Fridays, 1–3 PM, location TBD
+Wednesdays, 4–6 PM, Olin 019B   
+Fridays, 1–3 PM, Mary Low Coffeehouse
 
 ## Titles, names, and pronouns
 Students are often curious about how to address their professors. I am comfortable with Dr. Moore, Professor Moore, or Chris. The pronouns that I go by are he/him. I will be asking for your preferred name and pronoun the first day of class on a notecard. Ultimately, what's most important to me is that we create a culture of mutual respect in the classroom, beginning with how we address one another.
