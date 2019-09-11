@@ -12,10 +12,10 @@ The first video is by NancyPi:
 
 [![NancyPi deriv](http://img.youtube.com/vi/-ktrtzYVk_I/0.jpg)](http://www.youtube.com/watch?v=-ktrtzYVk_I "Derivatives... What? (NancyPi)")
 
-I really like that she takes her time and is clear about both analytically and graphically describing what a derivative is. Additionally, I aesthetically really like how the she writes between the viewer and herself. I don't know how they do that (because she is presumably not writing backwards), but it's pretty nifty.
+I really like that she takes her time and is clear about both analytically and graphically describing a derivative. Additionally, I aesthetically like how the she writes between the viewer and herself. I don't know how they do that (because she is presumably not writing backwards), but it's pretty nifty.
 
 The second video by patrickJMT:
 
 [![DerivSketch](http://img.youtube.com/vi/QoTGPUArfTI/0.jpg)](http://www.youtube.com/watch?v=QoTGPUArfTI "Sketching the Derivative of a Function")
 
-some text
+This was perhaps the clearest video that I could find that describes how to graph a derivative, which is what I aks for the second question of week 1's Problem Set. The second example of a "sawtooth" function is not applicable for what we are doing in this course.
