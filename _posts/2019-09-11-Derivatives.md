@@ -10,7 +10,9 @@ Since it's been "a while" since some of you used calculus, I thought that I woul
 
 The first video is by NancyPi:
 
-[!NancyPi deriv(http://img.youtube.com/vi/-ktrtzYVk_I/0.jpg)](http://www.youtube.com/watch?v=-ktrtzYVk_I "Derivatives... What? (NancyPi)")
+[![NancyPi deriv](http://img.youtube.com/vi/-ktrtzYVk_I/0.jpg)](http://www.youtube.com/watch?v=-ktrtzYVk_I "Derivatives... What? (NancyPi)")
 
 I really like that she takes her time and is clear about both analytically and graphically describing what a derivative is. Additionally, I aesthetically really like how the she writes between the viewer and herself. I don't know how they do that (because she is presumably not writing backwards), but it's pretty nifty.
+
+The second video by patrickJMT:
 
