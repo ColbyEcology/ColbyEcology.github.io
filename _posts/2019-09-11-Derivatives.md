@@ -16,3 +16,6 @@ I really like that she takes her time and is clear about both analytically and g
 
 The second video by patrickJMT:
 
+[![DerivSketch](http://img.youtube.com/vi/QoTGPUArfTI/0.jpg)](http://www.youtube.com/watch?v=QoTGPUArfTI "Sketching the Derivative of a Function")
+
+some text
