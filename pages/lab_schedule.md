@@ -14,7 +14,7 @@ Week | Date   | Lab                                                             
 01   | 09/02  | **No lab**                                                                          |
 02   | 09/09  | Lab orientation, begin Population Growth Experiment, begin Decomposition Experiment | [Population growth assignment](https://drive.google.com/file/d/1VeNickfgT1apCZNqG0gGMgJ2lCiaznTn/view?usp=sharing), [Population growth pres.](https://docs.google.com/presentation/d/1AdXARBIRSphvNVnncNPqYjMgqcGEgVw5MBEblNaDIyQ/edit?usp=sharing), [Decomposition assignment](https://drive.google.com/file/d/1zrEjc5gQCM8aneKoCkrjvTGvDDSW3EEl/view?usp=sharing), [Decomposition experiment pres.](https://drive.google.com/file/d/1T0-SJmQnmCOe7NEp_urSdgPapMyCFYNi/view?usp=sharing)
 03   | 09/16  | Natural History Observations                                                        | 
-04   | 09/23  | Environmental Gradients Experiment on the coast                                     | 
+04   | 09/23  | Environmental Gradients Experiment on the coast                                     | [GradientdAssignment](https://drive.google.com/file/d/1a9wtMZ2WPTCfcudp4-RuAbWgSd6W9-Iq/view?usp=sharing)
 05   | 09/30  | Analysis of Environmental Gradients Experiment                                      | 
 06   | 10/07  | Population Growth Experiment analysis                                               |
 07   | 10/14  | Forest Ecology Experiment                                                           |
