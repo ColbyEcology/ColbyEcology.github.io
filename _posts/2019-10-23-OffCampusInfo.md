@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thursday: Information session for off-campus study and Biology Majors
+title: 24 Oct., information session for off-campus study and Biology Majors
 feature-img: "assets/img/features/autumn-colors-1361908_edit.jpg"
 thumbnail: 
 tags: [Off campus study, Colby, Biology Majors]
