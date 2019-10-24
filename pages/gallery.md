@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Photo Gallery
-subtitle: From Ecology (BI271) at Colby College, Fall 2018
+subtitle: From Ecology (BI271) at Colby College, Fall 2019
 permalink: /gallery/
 hide: false
 gallery_path: "assets/img/pexels"
