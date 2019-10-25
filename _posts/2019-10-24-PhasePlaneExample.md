@@ -6,8 +6,6 @@ thumbnail:
 tags: [Phase planes, interactions, competition]
 ---
 
-Greetings,
-
 I decided to make a short (well, 16-min. video) on how to
 - Write down a set of equations for an ecological interaction (competition, here)
 - Find nullclines (for 1 species, but you always want to do both)
