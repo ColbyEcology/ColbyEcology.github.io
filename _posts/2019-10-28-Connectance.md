@@ -6,7 +6,7 @@ thumbnail:
 tags: [Food webs, interactions, connectance, networks]
 ---
 
-I made another video that walks through how to underestand the measures of connectance. [Here's a link to the video](https://www.educreations.com/lesson/view/calculating-connectance/51207802/?ref=app). In theory, connectance, $C$ is simple, it's the observed links, $L$ over the number of maximum links $M_L$ in a community. The equation is $C = \frac{L}{M _L}$ With "links" meaning ecological interactions. There is only one way of observing the total number of interactions, and I show 4 (of many) ways to calculate the maximum number of interactions. They are:
+I made another video that walks through how to underestand the measures of connectance. [Here's a link to the video](https://www.educreations.com/lesson/view/calculating-connectance/51207802/?ref=app). In theory, connectance, $$C$$ is simple, it's the observed links, $L$ over the number of maximum links $M_L$ in a community. The equation is $C = \frac{L}{M _L}$ With "links" meaning ecological interactions. There is only one way of observing the total number of interactions, and I show 4 (of many) ways to calculate the maximum number of interactions. They are:
 
 1. $M_ L = (S)(S)$
 2. $M_ L = (S)(S - 1)$
