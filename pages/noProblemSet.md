@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "There is no Problem Set this week"
-permalink: noProblemSet.html
 hide: true
 ---
  
