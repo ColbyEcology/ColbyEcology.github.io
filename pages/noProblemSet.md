@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "There is no Problem Set this week"
-permalink: noProblemSet.md
+permalink: noProblemSet.html
 hide: true
 ---
  
