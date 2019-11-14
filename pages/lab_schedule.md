@@ -21,7 +21,7 @@ Week | Date   | Lab                                                             
 08   | 10/21  | **No lab**                                                                          | 
 09   | 10/28  | Forest Ecology analysis                                                             | First draft of introduction due, [and linked are some of the papers I suggest you use](https://drive.google.com/drive/folders/1ly8QI4kq3kD3qtRw-xczFYXlrjL-32bq?usp=sharing), [Forest ecology analysis and paper](https://docs.google.com/document/d/1sbIR9vC4pjbiM_MH2LplLpl5ecOiApLY6DZ3w0NCZ8g/edit?usp=sharing)
 10   | 11/04  | Decomposition Experiment data collection                                            | [Decomposition data entry](https://docs.google.com/spreadsheets/d/1OwjwoWonmhpqG3MbjPLIdbHCcS0iUObjRp0Xbtxq0Jw/edit?usp=sharing)
-11   | 11/11  | Decomposition Experiment analysis                                                   | Final draft of Forest Ecology paper due
+11   | 11/11  | Decomposition Experiment analysis                                                   | Final draft of Forest Ecology paper due, [DecompAnalysis](https://docs.google.com/document/d/1yyegjHOHRGUNiYk_CSxAte1sLz9AKBr75XpaHlm3CLs/edit?usp=sharing), [ClassParameterData](https://drive.google.com/file/d/1KAaT-BClUaANAKsmojuJHg71Th6RKjr9/view?usp=sharing)
 12   | 11/18  | Decomposition Experiment presentation preparation                                   |
 13   | 11/25  | **No lab**                                                                          | 
 14   | 12/02  | Decomposition Experiment presentation                                               |
