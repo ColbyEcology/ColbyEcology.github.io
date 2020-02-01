@@ -8,7 +8,7 @@ plugins: [jekyll-paginate, jekyll-gist]
 
 # Setup
 title:            Ecological Modeling @ Colby College
-description:      'A course on mathematical, computational, and statistical ecology'
+description:      'A course on mathematical and computational population ecology'
 url:              https://colbyecology.github.io
 baseurl:          https://colbyecology.github.io/
 
@@ -19,7 +19,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          S19
+version:          S20
 
 github:
   repo:           https://github.com/poole/hyde
