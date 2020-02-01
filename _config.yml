@@ -9,7 +9,7 @@ plugins: [jekyll-paginate, jekyll-gist]
 # Setup
 title:            Ecological Modeling @ Colby College
 description:      'A course on mathematical and computational population ecology'
-url:              https://colbyecology.github.io/ecomod
+url:              https://colbyecology.github.io
 baseurl:          https://colbyecology.github.io
 
 author:
