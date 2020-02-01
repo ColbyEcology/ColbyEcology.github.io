@@ -10,7 +10,7 @@ plugins: [jekyll-paginate, jekyll-gist]
 title:            Ecological Modeling @ Colby College
 description:      'A course on mathematical and computational population ecology'
 url:              https://colbyecology.github.io
-baseurl:          https://colbyecology.github.io/
+baseurl:          https://colbyecology.github.io/ecomod
 
 author:
   name:           'Chris Moore'
