@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+# Permalinks
+permalink:        pretty
+plugins: [jekyll-paginate, jekyll-gist]
+
+# Setup
+title:            Ecological Modeling @ Colby College
+description:      'A course on mathematical, computational, and statistical ecology'
+url:              https://colbyecology.github.io
+baseurl:          https://colbyecology.github.io/
+
+author:
+  name:           'Chris Moore'
+  url:            https://mutualismecology.com
+
+paginate:         5
+
+# Custom vars
+version:          S19
+
+github:
+  repo:           https://github.com/poole/hyde
