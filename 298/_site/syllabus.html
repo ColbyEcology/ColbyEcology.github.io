@@ -11,7 +11,7 @@
 
 
 
-<title>About This Website</title>
+<title>Syllabus</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -248,6 +251,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -255,6 +321,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -267,12 +343,12 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Ecology and Evolution of Infectious Disease</a>
+      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">Ecology and Evolution of Infectious Disease</a>
 </li>
 <li>
   <a href="syllabus.html">Syllabus</a>
@@ -292,15 +368,152 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About This Website</h1>
+<h1 class="title toc-ignore">Syllabus</h1>
 
 </div>
 
 
-<p>More about this website.</p>
+<div id="course-description" class="section level1">
+<h1><span class="header-section-number">1</span> Course description</h1>
+<p>Ecological Modelling is a course that is designed to help students learn theory and methods in mathematical and computational ecology. Collectively, these types quantitative approaches are central to the science of ecology for understanding, predicting, and making inferences about ecological patterns and processes. Both classic and contemporary topics will be covered, with an emphasis on using modern tools to analyze and present theory and data.</p>
+<ul>
+<li>Mathematical aspects of the course will cover traditional theory of simple analytical models.</li>
+<li>Computational aspects of the course will cover the implementation and analysis of more complex models.</li>
+</ul>
+</div>
+<div id="learning-outcomes" class="section level1">
+<h1><span class="header-section-number">2</span> Learning outcomes</h1>
+<p>After taking this course as successful student should: 1. Have gained an <strong>appreciation of the art and science of modeling.</strong> 2. <strong>Be versed in theoretical ecology</strong>, which includes <strong>understanding ecological topics</strong> on single-species population dynamics, structured population dynamics, spatial dynamics, two-species population dynamics, and multi-species dynamics. 3. <strong>Be versed in theoretical ecology</strong>, which includes <strong>understanding and applying mathematical/analytical tools and topics</strong> on equilibrium, stability, chaos, and stochasticity. 4. <strong>Be able to build, analyze, and present ecological models using the R programming language and environment.</strong> This includes understanding and use of R data structures, functional programming, libraries for simulation and analysis of ecological models, and dynamic reports/documents using R Markdown Documents. 5. <strong>Be able to (re)create a scientific model.</strong> The “Remodeling Project” will include assessing and choosing a peer-reviewed model that can feasibly be recreated, recreate the model, and critique the model.</p>
+</div>
+<div id="professor-information" class="section level1">
+<h1><span class="header-section-number">3</span> Professor information</h1>
+<p>Dr. Christopher M. Moore<br />
+Email: cmmoore<br />
+Office: Olin 216<br />
+Office phone: 207-859-5746</p>
+</div>
+<div id="meetings-for-discussions-and-labs" class="section level1">
+<h1><span class="header-section-number">4</span> Meetings for discussions and labs</h1>
+<p>Labs: M, 1—4:00 PM, in Olin 314<br />
+Discussions: TR, 9:30—10:45 AM, in Miller 205</p>
+</div>
+<div id="office-hours" class="section level1">
+<h1><span class="header-section-number">5</span> Office hours</h1>
+<p>TBA</p>
+</div>
+<div id="text" class="section level1">
+<h1><span class="header-section-number">6</span> Text</h1>
+<ul>
+<li>Required: <em>Population ecology: from first principles</em>, 2<sup>nd</sup> ed., 2013, by Vandermeer and Goldberg, Princeton University Press<br />
+</li>
+<li>Optional: <em>A primer of ecology with R</em>, 2009, by Stevens, Springer Press</li>
+</ul>
+</div>
+<div id="assessment-and-grade-assignment" class="section level1">
+<h1><span class="header-section-number">7</span> Assessment and grade assignment</h1>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Assignments</th>
+<th align="center">Each</th>
+<th align="center">No.</th>
+<th align="center">Proportion of the course</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Problem sets</td>
+<td align="center">0.035</td>
+<td align="center">9</td>
+<td align="center">0.315</td>
+</tr>
+<tr class="even">
+<td align="left">Quizzes (individual)</td>
+<td align="center">0.011</td>
+<td align="center">10</td>
+<td align="center">0.110</td>
+</tr>
+<tr class="odd">
+<td align="left">Quizzes (group)</td>
+<td align="center">0.011</td>
+<td align="center">10</td>
+<td align="center">0.110</td>
+</tr>
+<tr class="even">
+<td align="left">Lab experiments</td>
+<td align="center">0.040</td>
+<td align="center">2</td>
+<td align="center">0.080</td>
+</tr>
+<tr class="odd">
+<td align="left">Lab reports</td>
+<td align="center">0.030</td>
+<td align="center">4</td>
+<td align="center">0.120</td>
+</tr>
+<tr class="even">
+<td align="left">Remodeling project</td>
+<td align="center">0.200</td>
+<td align="center">1</td>
+<td align="center">0.240</td>
+</tr>
+<tr class="odd">
+<td align="left">Participation</td>
+<td align="center">0.030</td>
+<td align="center">1</td>
+<td align="center">0.025</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Problem sets</strong>: Exercises from the text. They are due Fridays by 5 PM of every week.</li>
+<li><strong>Quizzes</strong>: Every Tuesday there will be a quiz, with 5 multiple choice problems, based on the week’s material. You will first take it individually, then with a group.</li>
+<li><strong>Lab reports/experiments</strong>: The Lab reports are in-lab work, mostly focused on programming in R. The Lab experiments are based on lab experiments and will be full write-ups.</li>
+<li><strong>Remodeling project</strong>: This is the big project of the semester where you will choose a scientific paper with an ecological model and recreate it. Throughout the semester you will give several small presentations on the paper and model. The first presentation will be an overview of the paper (0.03), the second presentation will be on the methods used by the authors and you (0.05), the third presentation will be on the results of the Remodeling attempt (0.07), and there will be a final paper summarizing the project (0.09).</li>
+<li><strong>Participation</strong>: Participation is necessary for this course to succeed.</li>
+</ul>
+</div>
+<div id="attendance" class="section level1">
+<h1><span class="header-section-number">8</span> Attendance</h1>
+<p>Role will not be taken, but regular attendance is necessary for you to succeed in this course.</p>
+</div>
+<div id="titles-and-names" class="section level1">
+<h1><span class="header-section-number">9</span> Titles and names</h1>
+<p>Students are often curious about how to address their professors. I am comfortable with Dr. Moore, Professor Moore, or Chris. What’s most important to me is that we create a culture of mutual respect in the classroom. As a sign of respect to you I will, by default, address you by your first name. Should you have preferred way of being addressed (Mx. last name, nickname, etc.), I encourage your to communicate that to me.</p>
+</div>
+<div id="participation" class="section level1">
+<h1><span class="header-section-number">10</span> Participation</h1>
+<p>This success of the class (group) is contingent upon each student (individual) coming prepared and eager to engage with the course material and one another. Of course I will employ methods to muster enthusiasm and energy, but to be clear, this is a group effort. I ask that you do your best to come to class prepared by not only having read, but doing your best to understand to the extent that if called upon, you could recall the material from the reading in addition to stating your’s own analysis of the reading’s strengths, weaknesses, and higher-level analogies (e.g., relating concepts to other areas of basic and applied science).</p>
+<p>The quality and the quantity of participation will be taken into account. That is, I <em>fully</em> encourage you to participate, but I’d like for a somewhat uniform distribution of substantive discussion. In addition, an egalitarian approach is encouraged to better facilitate exchange of ideas. Nobody is interested in group members dominating discussion. If you are one that tends to monopolize discussion, try to engage others, as this is—at least—as important as the matter at hand and is a skill that is greatly underrated and can really boost the level of discussion. If you are one that does not participate, <em>please</em> realize that your input is important to all of us! We are all intelligent and insightful, and engagement and input by all is how we will better understand the topic.</p>
+<p>Overall, let’s just have fun learning, which is presumably why we are all here. Having a fun time playing ideological ping-pong (not dodge ball) with each other will only harbour growth and learning. Ecological theory can be abstract, conceptually challening, and a technical subject that lends itself greatly to creative and alternative views and approaches. In addition, ecological theory and modeling is a very applied topic, so I am certain that what we cover will touch upon each each of your scientific interests in some way.</p>
+</div>
+<div id="academic-integrity" class="section level1">
+<h1><span class="header-section-number">11</span> Academic integrity</h1>
+<p>Honesty, integrity, and personal responsibility are cornerstones of a Colby education and provide the foundation for scholarly inquiry, intellectual discourse, and an open and welcoming campus community. These values are articulated in the Colby Affirmation and are central to this course. You are expected to demonstrate academic honesty in all aspects of this course. If you are clear about course expectations, give credit to those whose work you rely on, and submit your best work, you are highly unlikely to commit an act of academic dishonesty.</p>
+<p>Academic dishonesty includes, but is not limited to: violating clearly stated rules for taking an exam or completing homework; plagiarism (including material from sources without a citation and quotation marks around any borrowed words); claiming another’s work or a modification of another’s work as one’s own; buying or attempting to buy papers or projects for a course; fabricating information or citations; knowingly assisting others in acts of academic dishonesty; misrepresentations to faculty within the context of a course; and submitting the same work, including an essay that you wrote, in more than one course without the permission of the instructors.</p>
+<p>Academic dishonesty is a serious offense against the college. Sanctions for academic dishonesty are assigned by an academic review board and may include failure on the assignment, failure in the course, or suspension or expulsion from the College.</p>
+</div>
+<div id="athletic-participation" class="section level1">
+<h1><span class="header-section-number">12</span> Athletic participation</h1>
+<p>While Colby College is supportive of athletic participation by its students, academics takes priority over athletics. Both NCAA and Colby rules prohibit missing class for practices. In the case of overlapping commitments between class and athletic competitions, the student must meet with the professor as soon as possible to discuss these overlaps. The student may request permission to miss class and make up the missed work; the instructor has final authority either to grant or to withhold permission</p>
+</div>
+<div id="sexual-misconducttitle-ix-statement" class="section level1">
+<h1><span class="header-section-number">13</span> Sexual misconduct/Title IX statement</h1>
+<p>Colby College prohibits and will not tolerate sexual misconduct or gender-based discrimination of any kind. Colby is legally obligated to investigate sexual misconduct (including, but not limited to sexual assault and sexual harassment).</p>
+<p>If you wish to speak confidentially about an incident of sexual misconduct, please contact Colby Counseling Services (207-859-4490) or the Director of the Gender and Sexual Diversity Program, Emily Schusterbauer (207-859-4093).</p>
+<p>Students should be aware that faculty members are considered responsible employees; as such, if you disclose an incident of sexual misconduct to a faculty member, they have an obligation to report it to Colby’s Title IX Coordinator. “Disclosure” may include communication in-person, via email/phone/text, or through class assignments.</p>
+<p>To learn more about sexual misconduct or report an incident, visit <a href="http://www.colby.edu/sexualviolence/" target="_blank">http://www.colby.edu/sexualviolence/</a>.</p>
+<!---
+compiles page to pdf
+pandoc index.md --latex-engine=xelatex -V geometry:margin=1in -o Misc/Syllabus.pdf
+--->
+<p><small><a href="./Misc/Syllabus.pdf" download>Download this page as a .pdf, last updated 21 January 2019</a></small></p>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -333,6 +546,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

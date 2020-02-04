@@ -11,7 +11,7 @@
 
 
 
-<title>My Website</title>
+<title>Welcome to Ecology and Evolution of Infectious Disease (BI298) at Colby College</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -267,12 +267,12 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Ecology and Evolution of Infectious Disease</a>
+      <a class="navbar-brand" href="index.html"></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="index.html">Home</a>
+  <a href="index.html">Ecology and Evolution of Infectious Disease</a>
 </li>
 <li>
   <a href="syllabus.html">Syllabus</a>
@@ -292,12 +292,32 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">My Website</h1>
+<h1 class="title toc-ignore">Welcome to Ecology and Evolution of Infectious Disease (BI298) at Colby College</h1>
 
 </div>
 
 
 <p>Hello, Website!</p>
+<pre class="r"><code>library(package = &quot;deSolve&quot;)
+si &lt;- function(t, y, parms){
+  with(as.list(c(y, parms)), {
+    dS &lt;- - beta*S*I
+    dI &lt;- beta*S*I - gamma*I
+    dR &lt;- gamma*I
+    return(list(c(dS, dI, dR)))
+  })
+}
+parameters &lt;- c(beta = 5, gamma = 2)
+y0 &lt;- c(S = 1, I = 0.01, R = 0)
+time_seq &lt;- seq(from = 0, to = 10, by = 0.01)
+
+si_out &lt;- ode(y = y0, times = time_seq, func = si, parms = parameters)
+
+out_lims &lt;- c(min(si_out[,-1]), max(si_out[,-1]))
+plot(x = si_out[,1], y = si_out[,2], type = &quot;l&quot;, ylim = out_lims, xlab = &quot;time&quot;, ylab = &quot;Density&quot;)
+  lines(x = si_out[,1], y = si_out[,3], col = &quot;red&quot;)
+  lines(x = si_out[,1], y = si_out[,4], col = &quot;blue&quot;)</code></pre>
+<p><img src="index_files/figure-html/unnamed-chunk-54-1.png" width="672" /></p>
 
 
 

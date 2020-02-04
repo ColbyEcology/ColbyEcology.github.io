@@ -1,8 +1,7 @@
 name: "Ecology and Evolution of Infectious Disease"
 navbar:
-  title: "Ecology and Evolution of Infectious Disease"
   left:
-    - text: "Home"
+    - text: "Ecology and Evolution of Infectious Disease"
       href: index.html
     - text: "Syllabus"
       href: syllabus.html
