@@ -1,7 +1,10 @@
-name: "my-website"
+name: "Ecology and Evolution of Infectious Disease"
 navbar:
+  title: "Ecology and Evolution of Infectious Disease"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Syllabus"
+      href: syllabus.html
+    - text: "Schedule"
+      href: schedule.html
