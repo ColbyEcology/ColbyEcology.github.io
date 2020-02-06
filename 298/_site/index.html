@@ -297,27 +297,13 @@ $(document).ready(function () {
 </div>
 
 
-<p>Hello, Website!</p>
-<pre class="r"><code>library(package = &quot;deSolve&quot;)
-si &lt;- function(t, y, parms){
-  with(as.list(c(y, parms)), {
-    dS &lt;- - beta*S*I
-    dI &lt;- beta*S*I - gamma*I
-    dR &lt;- gamma*I
-    return(list(c(dS, dI, dR)))
-  })
-}
-parameters &lt;- c(beta = 5, gamma = 2)
-y0 &lt;- c(S = 1, I = 0.01, R = 0)
-time_seq &lt;- seq(from = 0, to = 10, by = 0.01)
-
-si_out &lt;- ode(y = y0, times = time_seq, func = si, parms = parameters)
-
-out_lims &lt;- c(min(si_out[,-1]), max(si_out[,-1]))
-plot(x = si_out[,1], y = si_out[,2], type = &quot;l&quot;, ylim = out_lims, xlab = &quot;time&quot;, ylab = &quot;Density&quot;)
-  lines(x = si_out[,1], y = si_out[,3], col = &quot;red&quot;)
-  lines(x = si_out[,1], y = si_out[,4], col = &quot;blue&quot;)</code></pre>
-<p><img src="index_files/figure-html/unnamed-chunk-54-1.png" width="672" /></p>
+<p><strong>Ecology</strong>: the study of the distribution and abundance of organisms<br />
+and<br />
+<strong>Evolution</strong>: changes in populations<br />
+of<br />
+<strong>Infectious</strong>: transmissible<br />
+<strong>Disease</strong>: disorder or organismal function</p>
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 
 
 

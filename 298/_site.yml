@@ -7,3 +7,4 @@ navbar:
       href: syllabus.html
     - text: "Schedule"
       href: schedule.html
+# rmarkdown::render_site("/Volumes/GoogleDrive/My Drive/BI382/2020Spring/ColbyEcology.github.io/298")

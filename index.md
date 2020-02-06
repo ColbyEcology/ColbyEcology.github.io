@@ -31,9 +31,6 @@ Labs: M, 1—4:00 PM, in Olin 314
 Discussions: TR, 9:30—10:45 AM, in Miller 205
 
 ### Office hours
-T: 4:00–5:00 PM  
-W: 1:00–2:30 PM  
-F: 10:00 AM–12:00 PM
 
 ### Text
 * Required: *Population ecology: from first principles*, 2<sup>nd</sup> ed., 2013, by Vandermeer and Goldberg, Princeton University Press  

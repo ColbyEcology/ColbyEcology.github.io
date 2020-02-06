@@ -1,22 +1,33 @@
 ---
-title: "About This Website"
+title: "Infectious Disease Schedule"
 output: 
   html_document
 ---
-  
-| Week | M Date |    Topic              | Reading             | Slides             |  Assignments        | Video     | Misc.           |
-|:----:|:------:|-----------------------|---------------------|--------------------|---------------------|-----------|-----------------|
-| 01   | 03 Feb |                       |                     |                    |                     |           |                 |
-| 02   | 10 Feb |                       |                     |                    |                     |           |                 |
-| 03   | 17 Feb |                       |                     |                    |                     |           |                 |
-| 04   | 24 Feb |                       |                     |                    |                     |           |                 |
-| 05   | 02 Mar |                       |                     |                    |                     |           |                 |
-| 06   | 09 Mar |                       |                     |                    |                     |           |                 |
-| 07   | 16 Mar |                       |                     |                    |                     |           |                 |
-| 08   | 30 Mar |                       |                     |                    |                     |           |                 |
-| 09   | 06 Apr |                       |                     |                    |                     |           |                 |
-| 10   | 13 Apr |                       |                     |                    |                     |           |                 |
-| 11   | 20 Apr |                       |                     |                    |                     |           |                 |
-| 12   | 27 Apr |                       |                     |                    |                     |           |                 |
-| 13   | 04 May |                       |                     |                    |                     |           |                 |
-| Exam | xx May |                       |                     |                    |                     |           |                 |
+
+| Week | Date   | Module      |    Topic                                         | Activity     | Readings  | Slides  | Assignments | Video  | Misc.    |
+|:----:|:------:|-------------|--------------------------------------------------|--------------|-----------|---------|-------------|--------|----------|
+| 01   | 03 Feb | Coronavirus | Introduction                                     |              |           |         |             |        |          |
+|      |        |             | Coronavirus: is it a pandemic?                   |              |           |         |             |        |          |
+| 02   | 10 Feb |             | Coronavirus                                      |              |           |         |             |        |          |
+| 03   | 17 Feb | Dynamics    | Simple epidemic models                           |              |           |         |             |        |          |
+| 04   | 24 Feb |             | Host heterogeneity; multi-host & multi-pathogens |              |           |         |             |        |          |
+|      | 28 Feb |             |                                                  | Case studies |           |         |             |        |          |
+| 05   | 02 Mar |             | Spatial dynamics; controlling spread             |              |           |         |             |        |          |
+|      | 06 Mar |             |                                                  | Case studies |           |         |             |        |          |
+| 06   | 09 Mar |             | Controlling spread; population genetics          |              |           |         |             |        |          |
+|      | 13 Mar |             |                                                  | Case studies |           |         |             |        |          |
+| 07   | 16 Mar | Evolution   | Antibiotic resistance; evolution of virulence    |              |           |         |             |        |          |
+|      | 20 Mar |             |                                                  | Case studies |           |         |             |        |          |
+|      | 23 Mar |             | **Break**                                        |              |           |         |             |        |          |
+| 08   | 30 Mar |             | Coevolution; cospeciation                        |              |           |         |             |        |          |
+|      | 30 Mar |             |                                                  | Case studies |           |         |             |        |          |
+| 09   | 06 Apr | Ecology     | Interactions between parasites within hosts      |              |           |         |             |        |          |
+|      | 10 Apr |             | **No class; Chris at a meeting**                 |              |           |         |             |        |          |
+| 10   | 13 Apr |             | Parasite and host diversity                      |              |           |         |             |        |          |
+|      | 13 Apr |             |                                                  | Case studies |           |         |             |        |          |
+| 11   | 20 Apr |             | Regulation of hosts by pathogens                 |              |           |         |             |        |          |
+|      | 24 Apr |             |                                                  | Case studies |           |         |             |        |          |
+| 12   | 27 Apr |             | Pathogens and communities                        |              |           |         |             |        |          |
+|      | 01 May |             |                                                  | Case studies |           |         |             |        |          |
+| 13   | 04 May |             | Pathogens and ecosystems                         |              |           |         |             |        |          |
+| Exam | xx May |             |                                                  |              |           |         |             |        |          |   
