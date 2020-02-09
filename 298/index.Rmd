@@ -1,5 +1,6 @@
 ---
 title: "Welcome to Ecology and Evolution of Infectious Disease (BI298) at Colby College"
+favicon: "R0.png"
 ---
 
 <br>
