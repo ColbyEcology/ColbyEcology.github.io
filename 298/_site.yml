@@ -1,4 +1,5 @@
 name: "Ecology and Evolution of Infectious Disease"
+output_dir: "."
 navbar:
   left:
     - text: "Ecology and Evolution of Infectious Disease"
@@ -7,4 +8,4 @@ navbar:
       href: syllabus.html
     - text: "Schedule"
       href: schedule.html
-# rmarkdown::render_site("/Volumes/GoogleDrive/My Drive/BI382/2020Spring/ColbyEcology.github.io/298")
+# rmarkdown::render_site("/Volumes/GoogleDrive/My Drive/Courses/ColbyEcology.github.io/298")

@@ -2,12 +2,7 @@
 title: "Welcome to Ecology and Evolution of Infectious Disease (BI298) at Colby College"
 ---
 
-**Ecology**: the study of the distribution and abundance of organisms  
-and  
-**Evolution**: changes in populations   
-of  
-**Infectious**: transmissible   
-**Disease**: disuruption of organismal structure or function   
+![](https://imgs.xkcd.com/comics/degree_off.png)
 
 ```{r, echo = FALSE}
 library(package = "deSolve")
