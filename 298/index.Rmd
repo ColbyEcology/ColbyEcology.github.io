@@ -2,8 +2,13 @@
 title: "Welcome to Ecology and Evolution of Infectious Disease (BI298) at Colby College"
 ---
 
+<br>
+
 ### From [xkcd](https://xkcd.com/)
 ![](https://imgs.xkcd.com/comics/degree_off.png)
+
+<br>
+<br>
 
 ### A SIR model output of disease dynamics
 ```{r, echo = FALSE}
@@ -27,7 +32,7 @@ si_out <- ode(y = y0, times = time_seq, func = si, parms = parameters)
 
 out_lims <- c(min(si_out[,-1]), max(si_out[,-1]))
 
-par(las = 1)
+par(las = 1, mar = c(4.5, 4.5, 0.5, 0.5))
 plot(x = si_out[,1], y = si_out[,2], type = "l", ylim = out_lims, xlab = "Time", ylab = "Density", lwd = 2)
   lines(x = si_out[,1], y = si_out[,3], col = "red", lwd = 2)
   lines(x = si_out[,1], y = si_out[,4], col = "blue", lwd = 2)
