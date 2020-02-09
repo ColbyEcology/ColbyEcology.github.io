@@ -2,8 +2,10 @@
 title: "Welcome to Ecology and Evolution of Infectious Disease (BI298) at Colby College"
 ---
 
+### From [xkcd](https://xkcd.com/)
 ![](https://imgs.xkcd.com/comics/degree_off.png)
 
+### A SIR model output of disease dynamics
 ```{r, echo = FALSE}
 library(package = "deSolve")
 library(package = "animation")
