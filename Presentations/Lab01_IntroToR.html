@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="" xml:lang="">
   <head>
     <title>Lab1: Introduction to the R language, R environment, RStudio, and R Markdown</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="author" content="Christopher Moore" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
@@ -14,7 +14,6 @@ class: center, middle, inverse, title-slide
 # Lab1: Introduction to the R language, R environment, RStudio, and R Markdown
 ## Data structures, subsetting, functions, workflow, markdown, and R Markdown
 ### Christopher Moore
-### 2019/02/11
 
 ---
 
@@ -390,17 +389,17 @@ c(10, 20, 30, 40)[c(10, 20, 30, 40) %% 4 == 0] # %% is the modulus, which is the
 # Subsetting: logical values
 Logical operators
 
-Operator        | Description             |
-:--------------:|:-------------------------:
- `&lt;`            | less than                |
- `&lt;=`           | less than or equal to    |
- `&gt;`            | greater than             |
- `&gt;=`           | greater than or equal to |
- `==`           | is exactly equal to      |
- `!=`           | is not equal to          |
- `!x`           | is not `x`               |
- `x `&amp;#124;` y` | `x` or `y`               |
- `x&amp;y`        | `x` and `y`                |
+|Operator        | Description               |
+|:--------------:|:-------------------------:|
+| `&lt;`            | less than                 |
+| `&lt;=`           | less than or equal to     |
+| `&gt;`            | greater than              |
+| `&gt;=`           | greater than or equal to  |
+| `==`           | is exactly equal to       |
+| `!=`           | is not equal to           |
+| `!x`           | is not `x`                |
+| `x `&amp;#124;` y` | `x` or `y`                |
+| `x&amp;y`        | `x` and `y`                 |
  
 ---
 # Subsetting: IDing the elements you want to subset
@@ -545,7 +544,7 @@ class: inverse, center, middle
 # R Markdown
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
-<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
@@ -589,7 +588,24 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     deleted = true;
   });
-})();</script>
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
 
 <script>
 (function() {
@@ -603,8 +619,8 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
 </script>
 
 <script>
-(function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
     code = codes[i];
     if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
@@ -618,7 +634,8 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     i++;
   }
-})();
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
