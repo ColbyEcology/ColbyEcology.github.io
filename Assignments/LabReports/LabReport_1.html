@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -69,9 +69,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type="text/css">
 .main-container {
@@ -85,7 +83,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -102,8 +99,6 @@ summary {
 </style>
 
 
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -149,6 +144,7 @@ summary {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -161,20 +157,17 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -187,12 +180,26 @@ $(document).ready(function () {
 
 </div>
 
+<div id="TOC">
+<ul>
+<li><a href="#welcome-to-r-markdown-and-ecological-modeling-bi382-lab-1">Welcome to R Markdown and Ecological Modeling (BI382), Lab 1</a></li>
+<li><a href="#creating-and-working-with-an-r-markdown-document">1. Creating and working with an R Markdown Document</a></li>
+<li><a href="#from-here-forward-place-r-code-in-a-chunck-which-is-quickly-written-as-command-option-i">2. From here forward, place R code in a chunck, which is quickly written as <code>command + option + i</code></a></li>
+<li><a href="#data-types">3. Data types</a></li>
+<li><a href="#data-structures">4. Data structures</a></li>
+<li><a href="#subsetting">5. Subsetting</a></li>
+<li><a href="#functions">6. Functions</a></li>
+<li><a href="#plotting">7. Plotting</a></li>
+<li><a href="#turn-it-in">8. Turn it in</a></li>
+</ul>
+</div>
 
-<div id="welcome-to-r-notebooks-and-ecological-modeling-bi382-lab-1" class="section level1">
-<h1>Welcome to R Notebooks and Ecological Modeling (BI382), Lab 1</h1>
+<div id="welcome-to-r-markdown-and-ecological-modeling-bi382-lab-1" class="section level1">
+<h1>Welcome to R Markdown and Ecological Modeling (BI382), Lab 1</h1>
 <p>The goal of today’s lab as a complement to the presentation is for you spend some time working in RStudio in a R Markdown Document Below there are a series of tasks that will hopefully help you become more familiar with the R language, the RStudio interface, and the markdown language.</p>
-<div id="creating-and-working-with-an-r-markdown-document" class="section level2">
-<h2>1. Creating and working with an R Markdown Document</h2>
+</div>
+<div id="creating-and-working-with-an-r-markdown-document" class="section level1">
+<h1>1. Creating and working with an R Markdown Document</h1>
 <ol style="list-style-type: decimal">
 <li>Open a R Markdown Document file, change the title to “LabReport_01”.</li>
 <li>Run the existing script and save it in the working directory you created during the presentation.</li>
@@ -200,45 +207,46 @@ $(document).ready(function () {
 <li>If you want the view to appear externally in a window or with RStudio (my preference in the “Viewer” tab that is by default in the bottom-right pane), you can cahnge this setting by clicking <code>RStudio -&gt; Preferences -&gt; R Makdown</code> and there is a drop-down option for <code>Show output preview in:</code>.</li>
 </ol>
 </div>
-<div id="from-here-forward-place-r-code-in-a-chunck-which-is-quickly-written-as-command-option-i" class="section level2">
-<h2>2. From here forward, place R code in a chunck, which is quickly written as <code>command + option + i</code></h2>
+<div id="from-here-forward-place-r-code-in-a-chunck-which-is-quickly-written-as-command-option-i" class="section level1">
+<h1>2. From here forward, place R code in a chunck, which is quickly written as <code>command + option + i</code></h1>
 </div>
-<div id="data-types" class="section level2">
-<h2>3. Data types</h2>
+<div id="data-types" class="section level1">
+<h1>3. Data types</h1>
 <ol style="list-style-type: decimal">
 <li>Delete everything below the <code>yaml</code> header at the top of the page (<code>yaml</code> header is the text sandwtched between the three hyphens).</li>
 <li>Create a first-tier heading called <code>Data types</code>; i.e., <code># Data types</code></li>
-<li>Foe each of the 5 data types, create a sceond-tier (e.g., <code>## Interger data</code>) header and run four functions (e.g., <code>is.numeric()</code>, <code>sum()</code>, <code>is.na()</code>) over each data type, one being <code>str()</code>.</li>
+<li>For each of the 5 data types, create a sceond-tier (e.g., <code>## Interger data</code>) header and run any four functions (e.g., <code>is.numeric()</code>, <code>sum()</code>, <code>is.na()</code>) over each data type, one being <code>str()</code>. (Do you all have favorite functions in R yet?)</li>
 </ol>
 </div>
-<div id="data-structures" class="section level2">
-<h2>4. Data structures</h2>
+<div id="data-structures" class="section level1">
+<h1>4. Data structures</h1>
 <ol style="list-style-type: decimal">
 <li>Create a first-tier heading called <code>Data structures</code>.</li>
-<li>Create an example of each type of data structure. Verify your output with <code>str()</code>.</li>
+<li>Create an example of each type of data structure with whatever you want in each. Verify your output with <code>str()</code>.</li>
 </ol>
 </div>
-<div id="subsetting" class="section level2">
-<h2>5. Subsetting</h2>
+<div id="subsetting" class="section level1">
+<h1>5. Subsetting</h1>
 <ol style="list-style-type: decimal">
 <li>Create a first-tier heading called <code>Subsetting</code>.</li>
-<li>(For the next step we are going to draw random values. Before doing so, for replicability’s sake, we set a seed number that will allow us to draw the same random values again. Do this before any randomization occurs using <code>set.seed()</code> with any number in the parentneses. I always use Kaprekar’s constant, <code>6174</code>; i.e., <code>set.seed(6174</code>).</li>
-<li>Using <code>rnorm()</code>, create and save a vector that has 100 values with a mean of 50 and standard deviation of 15. Investiage how accurate the standard deviation was by subsetting.</li>
+<li>For the next step we are going to draw random values. Before doing so, for replicability’s sake, we set a seed number that will allow us to draw the same random values again. Do this before any randomization occurs using <code>set.seed()</code> with any number in the parentneses. I always use Kaprekar’s constant, <code>6174</code> (<code>set.seed(6174</code>), but you sould choose your favorite number. Type <code>runif(n = 5)</code> into the console. Do it again. Now set your seed and run it again. What do you notice?</li>
+<li>Using <code>rnorm()</code>, create and save a vector that has 100 values with a mean of 50 and standard deviation of 10. Investiage how accurate the standard deviation was by subsetting. (Remember we have an expectations of our samples given our mean and <a href="https://en.wikipedia.org/wiki/Standard_deviation">standard deviation</a>.)</li>
 </ol>
 </div>
-<div id="functions" class="section level2">
-<h2>6. Functions</h2>
+<div id="functions" class="section level1">
+<h1>6. Functions</h1>
 <ol style="list-style-type: decimal">
 <li>Create a first-tier heading called <code>Functions</code>.</li>
-<li>Create a function object that gives you the volume of a sphere. (Hint, it’s <span class="math inline">\(V = \frac{4}{3}\pi r^3\)</span>.)</li>
-<li>Use 6.2. to calcuate the volume of a sphere with radii: <code>1</code>, <code>2</code>, <code>10</code>, <code>50</code>.</li>
-<li>After completing 6.3., create and save a vector of the values, then input that into your function.</li>
+<li>Create a function object that gives you the area of a sphere. (Hint, it’s <span class="math inline">\(A = \frac{1}{2}\tau r^2\)</span>, with <span class="math inline">\(\tau = 2\pi\)</span>. See <a href="https://tauday.com/tau-manifesto">section 3 of the Tau Manifesto</a> for why <span class="math inline">\(\pi\)</span> is wrong and <span class="math inline">\(\tau\)</span> is right.)</li>
+<li>Create a function object that gives you the volume of a sphere. (Hint, it’s <span class="math inline">\(V = \frac{2}{3}\tau r^3\)</span>, with <span class="math inline">\(\tau = 2\pi\)</span>.)</li>
+<li>Use 6.3. to calcuate the volume of a sphere with radii: <code>1</code>, <code>2</code>, <code>10</code>, <code>50</code>.</li>
+<li>After completing 6.4., create and save a vector of the values, then input that into your function.</li>
 <li>Create and save a function that converts Fahrenheit to Celsius and demostrates that it works.</li>
 <li>Using the funciton from 5.5., create a function that converts Celsius to Kelvin.</li>
 </ol>
 </div>
-<div id="plotting" class="section level2">
-<h2>7. Plotting</h2>
+<div id="plotting" class="section level1">
+<h1>7. Plotting</h1>
 <ol style="list-style-type: decimal">
 <li>Create a first-tier heading called <code>Plotting</code>.</li>
 <li>Let’s plot the relationship between area size and the theoretical number of species we expect. I know it’s been a long time since many of you were in <em>Ecology</em>, so I’ll refresh your memories that the number of species, <span class="math inline">\(S\)</span>, is proportional to the island area <span class="math inline">\(A\)</span>, times a constant, <span class="math inline">\(c\)</span>, and raised to the power <span class="math inline">\(z\)</span>. That is, <span class="math display">\[ S = cA^z.\]</span> Let’s give our parameters arbitrary values so we can graph the relatioship between our two variables of interest, island area and number of species. Let <span class="math inline">\(c = 4\)</span> and <span class="math inline">\(z = 0.01\)</span>. Write a function that will allow you to input area into that function and the number of species would be the output.</li>
@@ -246,13 +254,11 @@ $(document).ready(function () {
 <li>Run the sequence above through your speices-area function in (2), and assign the output as another object.</li>
 <li>Plot island area on the horizontal axis and number of species on the vertical axis using <code>plot()</code>. Describe what you see (type).</li>
 <li>Make another plot of (5), but label the axes appropriately and make the “line type” a line. I.e., use the argument <code>lty = &quot;l&quot;</code>.</li>
-<li>Another useful function for vizualization is <code>image()</code>. Use <code>image()</code> over the matrix you created in 4.</li>
 </ol>
 </div>
-<div id="turn-it-in" class="section level2">
-<h2>8. Turn it in</h2>
+<div id="turn-it-in" class="section level1">
+<h1>8. Turn it in</h1>
 <p>When you are finshed, please turn it in to the directory you created duing the presentation, in <code>Private/LabReports</code></p>
-</div>
 </div>
 
 
@@ -272,6 +278,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
