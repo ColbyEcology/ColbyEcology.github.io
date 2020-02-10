@@ -7,7 +7,7 @@ output:
 | Week | Date   | Module      |    Topic                                         | Activity     | Readings                                                                    | Slides    | Assignments | Misc.  |
 |:----:|:------:|-------------|--------------------------------------------------|--------------------------------------------------------------------------------------------|-----------|-------------|--------|
 | 01   | 03 Feb | Coronavirus | Introduction                                     |              |                                                                             |           |             |        |
-|      |        |             | Coronavirus                                      |              | [1982 flu pandemic](https://www.pnas.org/content/pnas/104/18/7582.full.pdf) |           |             |        |
+|      |        |             | Coronavirus                                      |              | [1918 flu pandemic](https://www.pnas.org/content/pnas/104/18/7582.full.pdf) |           |             |        |
 | 02   | 10 Feb |             | Coronavirus: is it a pandemic?                   |              |                                                                             |           |             |        |
 | 03   | 17 Feb | Dynamics    | Simple epidemic models                           |              |                                                                             |           |             |        |
 | 04   | 24 Feb |             | Host heterogeneity; multi-host & multi-pathogens |              |                                                                             |           |             |        |
