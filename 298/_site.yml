@@ -3,6 +3,7 @@ output_dir: "."
 navbar:
   left:
     - text: "Ecology and Evolution of Infectious Disease"
+      favicon: fa-R0.png
       href: index.html
     - text: "Syllabus"
       href: syllabus.html
