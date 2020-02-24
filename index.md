@@ -31,7 +31,9 @@ Labs: M, 1—4:00 PM, in Davis 308
 Discussions: TR, 9:30—10:45 AM, in Miller 205
 
 ### Office hours
-
+T: 1–3 PM in Olin 216  
+R: 7–9 AM in Olin 216  
+F: 1–3 PM at Mary Low Coffeehouse (With the exception of 28 Feb. and 13 March, where the Biology Deptartment seminar is from 1–2 in Olin 01 and Office Hours will be from 2–4 PM.)
 ### Text
 * Required: *Population ecology: from first principles*, 2<sup>nd</sup> ed., 2013, by Vandermeer and Goldberg, Princeton University Press  
 * Optional: *A primer of ecology with R*, 2009, by Stevens, Springer Press
