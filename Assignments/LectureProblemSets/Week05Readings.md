@@ -7,8 +7,7 @@ The week of 02 March (Week 05), we will be reading some papers on ecological mod
 
 For Tuesday, please read and come prepared to discuss [Levins 1966](https://www.jstor.org/stable/pdf/27836590.pdf) (You can skip the *Robust and Non-robust Theorems* section)
 
-
-Additionally, I have chosen a second paper for each of you to read:
+In addition to Levins on Tuesday, I have chosen a second paper for each of you to please read and come prepared to discuss:
 
 | Names             | Paper                                                                                                        |
 |-------------------|--------------------------------------------------------------------------------------------------------------|
