@@ -9,16 +9,16 @@ For Tuesday, please read and come prepared to discuss [Levins 1966](https://www.
 
 In addition to Levins on Tuesday, I have chosen a second paper for each of you to please read and come prepared to discuss:
 
-| Names             | Paper                                                                                                        |
-|-------------------|--------------------------------------------------------------------------------------------------------------|
-| Jack & Xinying    | [Waiwright et al.](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12975)              |
-| Siobhan & Camille | [Weisberg](https://link.springer.com/article/10.1007/s10539-006-9051-9)                                      |
-| Sam & Taryn       | [Sagof](https://link.springer.com/content/pdf/10.1023/A:1025566804906.pdf)                                   |
-| Caroline & Joseph | [Evans](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2011.0172)                                  |
-| Sihang & Madeline | [Jackson et al.](https://academic.oup.com/bioscience/article/50/8/694/243278)                                |
-| Kirsten & Garret  | [Roughgarden](https://drive.google.com/file/d/10cpMn-8llNbVcWyo9232KsuqKYpE7LNl/view?usp=sharing)            |
-| Jessica & Maddie  | [Halpern & Underwood](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2664.2006.01220.x) |
-| Adrienne & Anna   | [Abbott et al.](https://link.springer.com/article/10.1007/s12080-019-00441-x)                                |
+| Names             | Paper                                                                                                                       |
+|-------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| Jack & Xinying    | [Waiwright et al.](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12975)                             |
+| Siobhan & Camille | [Weisberg](https://link.springer.com/article/10.1007/s10539-006-9051-9)                                                     |
+| Sam & Taryn       | [Sagof](https://link.springer.com/content/pdf/10.1023/A:1025566804906.pdf)                                                  |
+| Caroline & Joseph | [Evans](https://royalsocietypublishing.org/doi/full/10.1098/rstb.2011.0172)                                                 |
+| Sihang & Madeline | [Jackson et al.](https://academic.oup.com/bioscience/article/50/8/694/243278)                                               |
+| Kirsten & Garret  | [Roughgarden](https://drive.google.com/file/d/10cpMn-8llNbVcWyo9232KsuqKYpE7LNl/view?usp=sharing) (skip Technical Critique) |
+| Jessica & Maddie  | [Halpern & Underwood](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.1365-2664.2006.01220.x)                |
+| Adrienne & Anna   | [Abbott et al.](https://link.springer.com/article/10.1007/s12080-019-00441-x)                                               |
 
 
 For Thursday, please read and come prepared to discuss [Zuk and Travisano](https://www.journals.uchicago.edu/doi/abs/10.1086/697508)
