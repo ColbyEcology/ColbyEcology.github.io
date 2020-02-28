@@ -10,7 +10,7 @@ For Tuesday, please read and come prepared to discuss [Levins 1966](https://www.
 In addition to Levins on Tuesday, I have chosen a second paper for each of you to please read and come prepared to discuss:
 
 | Names             | Paper                                                                                                                       |
-|-------------------|-----------------------------------------------------------------------------------------------------------------------------|
+|:------------------|:----------------------------------------------------------------------------------------------------------------------------|
 | Jack & Xinying    | [Waiwright et al.](https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12975)                             |
 | Siobhan & Camille | [Weisberg](https://link.springer.com/article/10.1007/s10539-006-9051-9)                                                     |
 | Sam & Taryn       | [Sagof](https://link.springer.com/content/pdf/10.1023/A:1025566804906.pdf)                                                  |
