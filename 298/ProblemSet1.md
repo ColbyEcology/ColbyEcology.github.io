@@ -1,7 +1,5 @@
 <link rel="stylesheet" href="CS.css">
 
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
 <br />
 <br />
 
