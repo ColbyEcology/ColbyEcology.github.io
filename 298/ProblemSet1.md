@@ -30,7 +30,7 @@ Due Monday, 09 March at 5 PM. Submissions may be printed or digital. Printed cop
 		legend(x = "topright", bty = "n", col = c("black", "red", "blue"), lty = 1, legend = c("Susceptible (R)", "Latent (L)", "Infectious (E)"), cex = 0.75)
 ```
 
-2. In the SIR model there are two parameters: the transmission rate, \\(\beta\\), and the recovery rate, \\(\gamma\\). Bounding these parameters between 0 and 1, please qualitatively describe the four outcomes for the following scenarios:
+2. In the SIR model there are two parameters: the transmission rate, *&beta;*, and the recovery rate, *&gamma;*. Bounding these parameters between 0 and 1, please qualitatively describe the four outcomes for the following scenarios:
 	- relatively large transmission and large recovery rates
 	- relatively large transmission and small recovery rates
 	- relatively small transmission and large recovery rates
@@ -39,11 +39,11 @@ Due Monday, 09 March at 5 PM. Submissions may be printed or digital. Printed cop
 	Also remember that you can change the duration of the simulation. Include a figure of each (4 in total).
 
 3. Please write down a mathematical model of a disease without a recovery phase, where infected individuals, after clearing the pathogen, become susceptible again.
-4. With the model from question 3., change the two parameters: the transmission rate, \\(\beta\\), and the rate at which individuals become susceptible again, \\(\delta\\). What are the two qualitative outcomes of this model?
+4. With the model from question 3., change the two parameters: the transmission rate, *&beta;*, and the rate at which individuals become susceptible again, *&gamma;*. What are the two qualitative outcomes of this model?
 5. Create a model where the disease has a latent period (i.e,. a SEIR model). Choose parameter values such that you cause an epidemic.
- - What are your transmission and recovery rates? What is the rate that exposed individuals become infectious?
- - What are the reciprocals of the recovery rate and the rate that exposed individuals become infectious? These are respectively the average infectious period and average duration of latency.
- - Next, change the rate that exposed individuals become infectious. Describe how it changes the epidemic.
+	 - What are your transmission and recovery rates? What is the rate that exposed individuals become infectious?
+	 - What are the reciprocals of the recovery rate and the rate that exposed individuals become infectious? These are respectively the average infectious period and average duration of latency.
+	 - Next, change the rate that exposed individuals become infectious. Describe how it changes the epidemic.
 6. Below is some data I acquired for COVID-19: 
 
 	```R

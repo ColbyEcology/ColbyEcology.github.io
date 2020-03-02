@@ -34,9 +34,9 @@ My main criterion is to make the presentation interesting, so I will allow you c
 ## Groups and Presentation Dates
 | Date       | Group members                     |
 |:-----------|:----------------------------------|
-| 2020-03-13 | Kirsten, Youmian, Jack, Jackie    |
+| 2020-03-13 | Kirsten, Xinying, Jack, Jackie    |
 | 2020-03-13 | Kaylie, Hayley  Delaney, Hannah R |
 | 2020-03-20 | Beck, Jordan  Brigid, Abby        |
 | 2020-03-20 | Alan, Stanley Matt, Jamie         |
 | 2020-04-03 | Thomas, Kate, David, James        |
-| 2020-04-03 | Hannah K, Megan, Xinying, Kiana   |
+| 2020-04-03 | Hannah K, Megan, Youmian, Kiana   |
