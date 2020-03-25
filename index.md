@@ -47,8 +47,8 @@ F: 1–3 PM at Mary Low Coffeehouse (With the exception of 28 Feb. and 13 March,
 | Quizzes (group)      | 0.011 |  10  |           0.110          |
 | Lab experiments      | 0.040 |  2   |           0.080          |
 | Lab reports          | 0.030 |  4   |           0.120          |
-| Remodeling project   | 0.200 |  1   |           0.240          |
-| Participation        | 0.030 |  1   |           0.025          |
+| Remodeling project   | 0.240 |  1   |           0.240          |
+| Participation        | 0.025 |  1   |           0.025          |
 
 - **Problem sets**: Exercises from the text. They are due Fridays by 5 PM of every week.
 - **Quizzes**: Every Tuesday there will be a quiz, with 5 multiple choice problems, based on the week's material. You will first take it individually, then with a group.

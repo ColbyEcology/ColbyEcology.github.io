@@ -1,8 +1,10 @@
 ---
 title: "Welcome to Ecology and Evolution of Infectious Disease (BI298) at Colby College"
-favicon: "R0.png"
 ---
 
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="fa-R0.ico" />
+</head>
 <br>
 
 ### From [xkcd](https://xkcd.com/)
