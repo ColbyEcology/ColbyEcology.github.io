@@ -3,10 +3,9 @@ output_dir: "."
 navbar:
   left:
     - text: "Ecology and Evolution of Infectious Disease"
-      favicon: fa-R0.ico
       href: index.html
-    - text: "Syllabus"
-      href: syllabus.html
+    - text: "Pandemic Syllabus"
+      href: pandemic_syllabus.html
     - text: "Schedule"
       href: schedule.html
 # rmarkdown::render_site("/Volumes/GoogleDrive/My Drive/Courses/ColbyEcology.github.io/298")

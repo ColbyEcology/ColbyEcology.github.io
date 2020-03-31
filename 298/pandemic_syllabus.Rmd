@@ -1,0 +1,86 @@
+---
+title: "Pandemic Syllabus"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    toc_collapsed: false
+    toc_depth: 3
+    number_sections: true
+---
+
+# A message from quarantine
+This is where you may access the large number of relevant changes to the course syllabus, and plans on moving forward for remote learning through quarantine during a pandemic. For the old syllabus material, follow this link: [pre-pandemic syllabus](syllabus.html).
+
+# Statement of principles
+Statement of Principles for the Remainder of Spring 2020 Semester for *Ecology and Evolution of Infectious Disease* (BI298):
+
+1. Neither you nor I signed up for this
+	- Neither of us signed up knowing the crisis that we'd be facing, not for the physical distancing, not of the abrupt end of our physical lives together on campus
+	- Neither of us signed up for an online class, not for teaching remotely, not for learning remotely, not for mastering new technologies, not for varied access to learning materials
+2. The humane option is the best option during a global crisis
+	- We are going to prioritize supporting each other as humans
+	- We are going to prioritize simple solutions that make sense for the most
+3. We cannot just do the same thing online that we did in class
+	- Some assignments are no longer effective (e.g., real-time/synchronous exchange of ideas during class discussions)
+	- Some expectations are no longer reasonable (e.g., Case Study Presentations)
+	- Some learning goals are no longer as feasible or as important
+4. We will foster intellectual nourishment, social connection, and personal accommodations through
+	- Accessible asynchronous content for diverse access, timezones, and contexts
+	- Optional synchronous discussion to learn together and combat isolation (Slack and Zoom)
+5. We will remain flexible and adjust to the situation
+	- Nobody know where this is going and how we'll need to adapt
+	- Everybody needs support and understanding in this unprecidented moment
+
+[Download as .pdf](PandemicPrinciples_BI298.pdf)   
+
+<div align="right"><font size="2">
+Adapted from Brandon Bayne, UNC Chapel Hill (<a href = https://twitter.com/brandonbayne/status/1239336664176250880">Tweet</a>)</font></div>
+
+# Learning outcomes
+
+After taking this course as successful student:  
+
+1. Will have gained an **understanding of parasitic interactions and their role in** in ecology and evolutionary biology.  
+2. Will have **experience using mathematical and computational models** to understand spatial and temporal disease dyanmics.  
+3. Be **equipped to critically evalute** public discourse of infectious disease agents.  
+4. Will have **contributed to local public discourse on infectious disease**.
+
+# Detailed calendar
+Link to a detailed calendar with my availability and assignments:    
+
+- [a .pdf](EEID_detailedCal.pdf)   
+- [a GoogleSheet for you to copy and modify](https://docs.google.com/spreadsheets/d/1b7YdttuId3FHTzj3wI1jZufUSJuX7eUtodsk9KdEBmM/edit?usp=sharing)
+
+# Meetings in spacetime
+- Optional during classtime: MWF, 9:00—9:50 AM on Zoom: [link](Tuesday, 8–10 AM EDT)
+- Optional office hours [Zoom link](https://colby.zoom.us/j/234278896):   
+	- Monday, 10 AM–noon EDT
+	- Tuesday, 8–10 AM EDT
+	- Tuesday, 1–3 PM EDT
+	- Wednesday, 4–6 PM EDT
+
+Go to Slack where I will be most working hours (EDT), too!
+
+# Assessment and grade assignment
+
+**In-person assignments**:
+
+| Assignments          | Each | No.   | Proportion of the course |
+| :------------------- | :--: | :---: | :----------------------: |
+| COVID-19 paper       | 0.14 |  01   |           0.14           |
+| Problem set          | 0.10 |  01   |           0.10           |
+| Participation        | 0.02 |  07   |           0.14           |
+
+These assignments were a total of 0.38 of the course grade. The remainder, 0.62, will be composed reconfigured assignments:
+
+
+**Reconfigured assignments**
+
+| Assignments          | Each | No.   | Proportion of the course |
+| :------------------- | :--: | :---: | :----------------------: |
+| Paper discussions    | 0.05 |  06   |           0.30           |
+| Collaborative paper  | 0.22 |  01   |           0.22           |
+| Pandemic Interviews  | 0.02 |  05   |           0.10           |
+ 
+More details to come soon!!!

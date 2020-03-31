@@ -1,6 +1,11 @@
 ---
 title: "Welcome to Ecology and Evolution of Infectious Disease (BI298) at Colby College"
 ---
+### A recent (31 March) [xkcd](https://xkcd.com/)
+![](https://imgs.xkcd.com/comics/pathogen_resistance.png)
+
+<br>
+<br>
 
 ### From [xkcd](https://xkcd.com/)
 ![](https://imgs.xkcd.com/comics/degree_off.png)

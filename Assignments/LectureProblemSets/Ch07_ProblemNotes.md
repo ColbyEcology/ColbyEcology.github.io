@@ -100,7 +100,7 @@ Some microparasites have increased their transmission rate by evolving the inclu
 ---
 Optional.
 
-# 7.17
+## 7.17
 Suppose that the vector is a mosquito and its rate of biting is $b$. If the probability that a biting mosquito itself becomes infected is $v$, $X$ is the relative number of mosquitoes infected, and $Y$ is the relative number of humans with the disease, write the equation for the accumulation of infected mosquitoes.
 
 ---
