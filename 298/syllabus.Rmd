@@ -9,12 +9,6 @@ output:
     number_sections: true
 ---
 
-<head>
-  <link rel="shortcut icon" type="image/x-icon" href="fa-R0.ico" />
-</head>
-<br>
-
-
 # Course information
 ## Course description
 In *Ecology and Evolution of Infectious Disease*, we will study microparasites and pathogens in human and non-human hosts. Three modules on disease dynamics, evolution, and ecology will cover topics such as spatial and temporal dynamics, vaccination, evolution of antibiotic resistance and virulence, coevolution and cospeciation, within host and geographic patterns of pathogen diversity, and the role of parasites in ecological communities and ecosystems. Assessments will include exams, quizzes, problem sets, and a project. Readings will mainly be from the primary literature. Concepts from calculus (e.g., derivatives) and algebra will be used throughout the course. Prerequisites: BI164, MA121, or equivalents.
