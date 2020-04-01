@@ -26,3 +26,6 @@ For those of you who prefer more structure, I am propose the 2x2x2, 2$^3$, or 2-
 
 - For the common papers, I think that sharing 2 ideas (e.g., evaluations of the papers' merits or faults), commenting on 2 others' ideas, and replying to at least 2 responses to you would be sufficient for maintaining an interesting discussion.
 - For the individual papers, I ask that you write a short summary (1–2 paragraphs) so your classmates get the gist of the paper and I think that sharing 1–2 ideas from the individual paper, commenting on 2 others' ideas, and replying to at least 2 responses to you would be sufficient for maintaining an interesting discussion.
+
+## Timeline
+You'll notice on the calendar that the paper discussion span the entire week. I would like for you to contribe to the discussions during the week. Perhaps aiming to post your initial ideas Monday or Tuesday, and responding throughout the week would be the best approach.
