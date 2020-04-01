@@ -180,6 +180,10 @@ html {
   max-width: 100%;
 }
 
+ul li{
+ font-size:16px;
+}
+
 body {
   color: #444;
   font-family: 'Open Sans Condensed', sans-serif;
