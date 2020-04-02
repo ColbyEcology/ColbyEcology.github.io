@@ -5,7 +5,7 @@
 
 # Paper Discussion Assignment Description
 
-Transitioning to remote learning means that we need to transition how learning happens. The primary method I have chosen to do this over the next 6 weeks is through paper discussions. The idea behind these discussions is that you will learn about the ecology and evolution of infectious disease from the general (often review) texts that I assign by reading it, writing about it, and engaging with others about it.
+Transitioning to remote learning means that we need to transition learning happens. The primary method I have chosen to do this over the next 6 weeks is through paper discussions. The idea behind these discussions is that you will learn about the ecology and evolution of infectious disease from the general (often review) texts that I assign by reading it, writing about it, and engaging with others about it.
 
 ## Topics
 In finer detail, every two weeks there will be a different topic. They will be:
