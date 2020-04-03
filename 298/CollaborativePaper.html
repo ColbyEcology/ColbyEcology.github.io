@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Ecology and Evolution of Infectious Disease</a>
+</li>
+<li>
+  <a href="pandemic_syllabus.html">Pandemic Syllabus</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="CS.css"></p>
+<p><br /> <br /></p>
+<div id="collaborative-paper-assignment-description" class="section level1">
+<h1>Collaborative Paper Assignment Description</h1>
+<div id="learning-goals-of-the-collaborative-paper" class="section level2">
+<h2>Learning goals of the Collaborative Paper</h2>
+<p>Transitioning to remote learning means that we need to transition how learning happens. One way that I have chosen to do this over the next 6 weeks is through a collaborative paper. The learning goals behind this assignment is threefold:</p>
+<ol style="list-style-type: decimal">
+<li>Remote collaboration is a vital skill for 21<sup>st</sup>-century professionals. You don’t really have the opportunity to do that on campus when your collaborators from class can generally work with you in person. Since you cannot meet in person, you will gain useful experience collaborating remotely.</li>
+<li>To understand infectious disease deeply, you need to understand a system deeply. I am facilitating your understanding of a study system, deeply, (actually, two systems; see 3., below), by asking your and a partner to write a paper on the biology of two infectious disease agents.</li>
+<li>To understand infectious disease more broadly, you need to understand that pathogens are idiosyncratic. That is, the biology of each pathogen is unique, and by understanding at least two with some depth, you will gain appreciation for the variety of pathogenic life.</li>
+</ol>
+</div>
+<div id="general" class="section level2">
+<h2>General</h2>
+<p>The diversity of pathogens is astounding. All major groups of organisms have evolved a pathogenic habits and pathogens and parasites may be the most common habitat across all species!</p>
+<p>In this course on ecology and evolution of infectious disease, we have largely focusing on biological concepts. In doing so, we have and will continue to superficially study species as they pertain to the biological concept. As examples, you learned a little bit about plague transmission when we read and discussed epizootics in prairie dog colonies, we would have learned just a little bit about Phocine Distemper Virus when learning about spatial dynamics of disease, and you will learn just a little bit about <em>Batrachochytrium dendrobatidis</em> (causing the disease, chytridiomycosis) in two weeks.</p>
+<p>Beyond learning the biological concepts, I would like for you to deeply learn about the natural history of organisms—especially ones you’re interested in. To do so, I invite you to embark on this Collaborative Paper where you explore the biology and natural history of two species of interest.</p>
+<p>The pathogens on which you choose to focus will be up to the pairs. I would like for one or both to be pathogens of non-human species.</p>
+</div>
+<div id="paper-structure-and-content" class="section level2">
+<h2>Paper Structure and Content</h2>
+<p>Find pathogens that inspire the two of you and dive into them! I would like the following information to be sought and written about by you for each of the two species:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Natural history</strong></li>
+<li><strong>Transmission dynamics</strong></li>
+<li><strong>Evolutionary biology</strong></li>
+<li><strong>Ecological relevance</strong></li>
+</ol>
+<p>Given the extraordinary diversity of pathogens, the details of the biology of each will be different. Nevertheless, here are some guidelines of what to include in each of the aforementioned:</p>
+<ol style="list-style-type: decimal">
+<li>The <strong>natural history</strong> of the organism includes the description of its biology. This will include, among other things, the pathogen’s lifecycle, geographic distribution, host information, reservoir host (if applicable), transmission pathways, pathogenicity, dormancy, how it causes disease, etc. In sum, this will likely be the bulkiest part where you describe the most basic aspects of your pathogens’ biology.</li>
+<li>For <strong>transmission dynamics</strong> I would like for you include quantitative population-like information about the pathogen’s population characteristics like: time series of incidences (e.g., epidemic/epidemic curves), transmission rates, recovery rates, latent period, <em>R</em><sub>0</sub>, spatial spread, a description of its disease model(s), etc.</li>
+<li>The <strong>evolutionary biology</strong> section will likely be smaller, depending on the pathogens. Here, I think it’d be illuminating to focus on aspects of the pathogen’s evolutionary history, including: mutation rates, selection (especially for virulence or anti-biotic resistance), phylogenetic description, etc.</li>
+<li>For <strong>ecological relevance</strong>, I ask that you write about how the pathogen affects the host population and effects they have on the larger community or ecosystem.</li>
+</ol>
+<p>Lastly, I would like a section on the comparative biology—specifically ecology and evolution—of the two pathogens. This should be synthetic and reflective. This is the only section to which I will assign length parameters, and I ask that it is no shorter than 1 and no more than 2.5 pages, single spaced.</p>
+</div>
+<div id="format" class="section level2">
+<h2>Format</h2>
+<p>Single-spaced please. Given that most pathogens are grossly understudied (I mean, there are multitudes of careers in disease biology if any of you are interested—and this line of study is obviously relevant), there will be varying amount of information on the natural history, transmission dynamics, evolutionary biology, and ecological relevance, so I do not include length guidelines for those sections. As I mentioned in the previous section about the comparative biology section at the end, I ask that it is no shorter than 1 and no more than 2.5 pages.</p>
+</div>
+<div id="partners" class="section level2">
+<h2>Partners</h2>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Person 1</th>
+<th align="left">Person 2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">James</td>
+<td align="left">Brigid</td>
+</tr>
+<tr class="even">
+<td align="left">Xinying</td>
+<td align="left">Jackie</td>
+</tr>
+<tr class="odd">
+<td align="left">Kirsten</td>
+<td align="left">Jack</td>
+</tr>
+<tr class="even">
+<td align="left">Kaylie</td>
+<td align="left">Hannah R.</td>
+</tr>
+<tr class="odd">
+<td align="left">Hayley</td>
+<td align="left">Delaney</td>
+</tr>
+<tr class="even">
+<td align="left">Stanley</td>
+<td align="left">Matt</td>
+</tr>
+<tr class="odd">
+<td align="left">Alan</td>
+<td align="left">Jamie</td>
+</tr>
+<tr class="even">
+<td align="left">Thomas</td>
+<td align="left">Beck</td>
+</tr>
+<tr class="odd">
+<td align="left">Jordan</td>
+<td align="left">Abby</td>
+</tr>
+<tr class="even">
+<td align="left">Kate</td>
+<td align="left">David</td>
+</tr>
+<tr class="odd">
+<td align="left">Megan</td>
+<td align="left">Youmian</td>
+</tr>
+<tr class="even">
+<td align="left">Hannah K.</td>
+<td align="left">Kiana</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="timeline" class="section level2">
+<h2>Timeline</h2>
+<p>You’ll notice on the detailed calendar (<a href="https://docs.google.com/spreadsheets/d/1b7YdttuId3FHTzj3wI1jZufUSJuX7eUtodsk9KdEBmM/edit#gid=0">link</a>) that I am asking for a first draft due in three weeks from Monday (due 24 April). I will give you feedback as soon as I can. To incentivize getting the draft in earlier so I can get feedback to you sooner and not have all dozen papers at once, for every weekday early you turn it in, I will add an extra 1% to the paper grade (but not over 100%). For example, if you turn it in on Friday, 17 April, you will have 5% added to your final grade. You will them have until the exam period (15 May) to turn in the final draft.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,8 +1,307 @@
-<link rel="stylesheet" href="CS.css">
-<br />
-<br />
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Ecology and Evolution of Infectious Disease</a>
+</li>
+<li>
+  <a href="pandemic_syllabus.html">Pandemic Syllabus</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="CS.css"></p>
+<p><br /> <br /></p>
+<div id="paper-discussion-assignment-description" class="section level1">
 <h1>Paper Discussion Assignment Description</h1>
 <p>Transitioning to remote learning means that we need to transition how learning happens. The primary method I have chosen to do this over the next 6 weeks is through paper discussions. The idea behind these discussions is that you will learn about the ecology and evolution of infectious disease from the general (often review) texts that I assign by reading it, writing about it, and engaging with others about it.</p>
+<div id="topics" class="section level2">
 <h2>Topics</h2>
 <p>In finer detail, every two weeks there will be a different topic. They will be:</p>
 <ul>
@@ -10,15 +309,71 @@
 <li><strong>Biodiversity and disease</strong> for the weeks of 13 and 20 April</li>
 <li><strong>Disease control</strong> for the weeks of 27 April and 04 May</li>
 </ul>
+</div>
+<div id="readings" class="section level2">
 <h2>Readings</h2>
 <p>The first of the two weeks I ask that you read a common paper(s) (see <a href="schedule.html">the schedule</a>). These common papers will be broad reviews of each of the three topics. The second of the two weeks I ask that you read a paper (preferably cited in the common paper(s)) of your choosing.</p>
 <p>I hope you find the papers interesting and relevant!</p>
+</div>
+<div id="engagement-and-discussion" class="section level2">
 <h2>Engagement and Discussion</h2>
 <p>Beyond reading, I want you to engage with me and your classmates. I ask that you do this on Moodle in forums. You should all be able to see <em>Ecology and Evolution of Infectious Disease</em> (BI298) in Moodle, and by the end of 01 April you should see the forums for each week become accessible. I would like for you to engage with the texts and your classmates in ways that you enjoy. I am not looking for particular structure of the discussion, but I want you to be critical of and engage with the material.</p>
-<p>For those of you who prefer more structure, I am propose the 2x2x2, 2$^3$, or 2-cubed guideline:</p>
+<p>For those of you who prefer more structure, I am propose the 2x2x2, 2<span class="math inline">\(^3\)</span>, or 2-cubed guideline:</p>
 <ul>
-<li>For the common papers, I think that sharing 2 ideas (e.g., evaluations of the papers' merits or faults), commenting on 2 others' ideas, and replying to at least 2 responses to you would be sufficient for maintaining an interesting discussion.</li>
-<li>For the individual papers, I ask that you write a short summary (1–2 paragraphs) so your classmates get the gist of the paper and I think that sharing 1–2 ideas from the individual paper, commenting on 2 others' ideas, and replying to at least 2 responses to you would be sufficient for maintaining an interesting discussion.</li>
+<li>For the common papers, I think that sharing 2 ideas (e.g., evaluations of the papers’ merits or faults), commenting on 2 others’ ideas, and replying to at least 2 responses to you would be sufficient for maintaining an interesting discussion.</li>
+<li>For the individual papers, I ask that you write a short summary (1–2 paragraphs) so your classmates get the gist of the paper and I think that sharing 1–2 ideas from the individual paper, commenting on 2 others’ ideas, and replying to at least 2 responses to you would be sufficient for maintaining an interesting discussion.</li>
 </ul>
+</div>
+<div id="timeline" class="section level2">
 <h2>Timeline</h2>
-<p>You'll notice on the calendar that the paper discussion span the entire week. I would like for you to contribe to the discussions during the week. Perhaps aiming to post your initial ideas Monday or Tuesday, and responding throughout the week would be the best approach.</p>
+<p>You’ll notice on the calendar that the paper discussion span the entire week. I would like for you to contribe to the discussions during the week. Perhaps aiming to post your initial ideas Monday or Tuesday, and responding throughout the week would be the best approach.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

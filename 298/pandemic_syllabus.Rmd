@@ -64,7 +64,7 @@ Go to Slack where I will be most working hours (EDT), too!
 
 # Assessment and grade assignment
 
-**In-person assignments**:
+In-person assignments:
 
 | Assignments          | Each | No.   | Proportion of the course |
 | :------------------- | :--: | :---: | :----------------------: |
@@ -75,12 +75,18 @@ Go to Slack where I will be most working hours (EDT), too!
 These assignments were a total of 0.38 of the course grade. The remainder, 0.62, will be composed reconfigured assignments:
 
 
-**Reconfigured assignments**
+Reconfigured assignments:
 
 | Assignments          | Each | No.   | Proportion of the course |
 | :------------------- | :--: | :---: | :----------------------: |
 | Paper discussions    | 0.05 |  06   |           0.30           |
-| Collaborative paper  | 0.22 |  01   |           0.22           |
 | Pandemic Interviews  | 0.02 |  05   |           0.10           |
- 
+| Collaborative paper  | 0.22 |  01   |           0.22           |
+
+The reconfigured assignments, summed with the in-person assignments are now out of 1. Here's links to the assignment descriptions:
+
 - **Paper discussions** details are posted in the schedule (or you can also click here: [link](PaperDiscussions.html))
+
+- **Pandemic Interviews** details are posted in the schedule (or you can also click here: [link]())
+
+- **Collaborative paper** details are posted in the schedule (or you can also click here: [link](CollaborativePaper.html))
