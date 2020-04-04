@@ -87,6 +87,6 @@ The reconfigured assignments, summed with the in-person assignments are now out 
 
 - **Paper discussions** details are posted in the schedule (or you can also click here: [link](PaperDiscussions.html))
 
-- **Pandemic Interviews** details are posted in the schedule (or you can also click here: [link]())
+- **Pandemic Interviews** details are posted in the schedule (or you can also click here: [link](PandemicInterviews.html))
 
 - **Collaborative paper** details are posted in the schedule (or you can also click here: [link](CollaborativePaper.html))

@@ -3,29 +3,29 @@
 <br />
 <br />
 
-# Paper Discussion Assignment Description
+# Pandemic Interviews Assignment Description
 
-Transitioning to remote learning means that we need to transition learning happens. The primary method I have chosen to do this over the next 6 weeks is through paper discussions. The idea behind these discussions is that you will learn about the ecology and evolution of infectious disease from the general (often review) texts that I assign by reading it, writing about it, and engaging with others about it.
+## Learning goals of the Pandemic Interviews
+Transitioning to remote learning means that we need to transition how learning happens. One way that I have chosen to do this over the next five weeks is through an interview assignment. The learning goals behind this assignment are twofold:
 
-## Topics
-In finer detail, every two weeks there will be a different topic. They will be:
+1. **Scientific conversation and communication.** Public discourse about science is important. We have seen disastrous consequences when we dismiss or ignore science, and it is up to all of us scientists or those who study science to keep a constant, healthy dialog with non-scientists. We can never have enough practice, and through interviewing people, I am hoping that this gives you some casual, low-stakes practice talking about the science of disease. (As an aside, if you want to watch a documentary on the communication of evolution to the public, you can watch [Flock of Dodos: the Evolution-Intelligent Design Circus](https://colby.kanopy.com/video/flock-dodos-evolution-intelligent-design-circus) through Colby's library.)
+2. **Independent investigation**. Part of this assignment will require you to search for scientifically-valid information, which isn't always easy and a skill that is learned and gained through practice.
 
-- **Spillover** for the weeks of 30 March and 06 April
-- **Biodiversity and disease** for the weeks of 13 and 20 April
-- **Disease control** for the weeks of 27 April and 04 May
+## Pandemic Interviews Summary
 
-## Readings
-The first of the two weeks I ask that you read a common paper(s) (see [the schedule](schedule.html)). These common papers will be broad reviews of each of the three topics. The second of the two weeks I ask that you read a paper (preferably cited in the common paper(s)) of your choosing.
+For this assignment, I would like for you to interview someone about the science if COVID-19 pandemic. I mostly would like for you to make a connection with someone in a low-stakes and casual way. I think it is a great way to engage with the science of COVID-19 and taking advantage of your new learning environment that is remote from Colby. In sum, I want you to engage with the interviewee respectfully and earnestly, and ultimately attaining information on what scientific aspects of the disease they believe they understand and what aspects of the disease they want to understand. To address aspects of the disease they want to understand, I ask that you investigate those topics and share what you have learned later.
 
-I hope you find the papers interesting and relevant!
+## Approaching and Interviewing a Pandemic Interviews Interviewee
+Ask a potential interviewee if they have maybe 10–15 minutes of time to talk about the science of COVID-19 for your _Ecology and Evolution of Infectious Disease_ course. Tell them that the goal of the assignment is to open a door of communication between you and the interviewee about the science of the disease. When you sit down (IRL, on the phone, or over whichever medium you choose) and talk, among all that you talk about, I would life for you to minimally take note of two things:
 
-## Engagement and Discussion
-Beyond reading, I want you to engage with me and your classmates. I ask that you do this on Moodle in forums. You should all be able to see *Ecology and Evolution of Infectious Disease* (BI298) in Moodle, and by the end of 01 April you should see the forums for each week become accessible. I would like for you to engage with the texts and your classmates in ways that you enjoy. I am not looking for particular structure of the discussion, but I want you to be critical of and engage with the material.
+1. What scientific aspects of the disease they believe they understand and
+2. What scientific aspects of the disease they want to or not understand.
 
-For those of you who prefer more structure, I am propose the 2x2x2, 2$^3$, or 2-cubed guideline:
+Please record what they say about these two points. After the interview is over. I would like for you to investigate and find answer to what they want to or not understand. Record what you found as well. That's it.
 
-- For the common papers, I think that sharing 2 ideas (e.g., evaluations of the papers' merits or faults), commenting on 2 others' ideas, and replying to at least 2 responses to you would be sufficient for maintaining an interesting discussion.
-- For the individual papers, I ask that you write a short summary (1–2 paragraphs) so your classmates get the gist of the paper and I think that sharing 1–2 ideas from the individual paper, commenting on 2 others' ideas, and replying to at least 2 responses to you would be sufficient for maintaining an interesting discussion.
+## Format
+Please conduct one interview per week and submit all five the last week of classes, no later than 08 May.
 
 ## Timeline
-You'll notice on the calendar that the paper discussion span the entire week. I would like for you to contribe to the discussions during the week. Perhaps aiming to post your initial ideas Monday or Tuesday, and responding throughout the week would be the best approach.
+
+You'll notice on the detailed calendar ([link](https://docs.google.com/spreadsheets/d/1b7YdttuId3FHTzj3wI1jZufUSJuX7eUtodsk9KdEBmM/edit#gid=0)) that I ask that you conduct one interview per week for five weeks. I suggest doing the interview on Monday (perhaps during regularly-scheduled class time) and investigating and reporting back to your interviewee by Friday.
