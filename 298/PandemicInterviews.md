@@ -15,6 +15,9 @@ Transitioning to remote learning means that we need to transition how learning h
 
 For this assignment, I would like for you to interview someone about the science if COVID-19 pandemic. I mostly would like for you to make a connection with someone in a low-stakes and casual way. I think it is a great way to engage with the science of COVID-19 and taking advantage of your new learning environment that is remote from Colby. In sum, I want you to engage with the interviewee respectfully and earnestly, and ultimately attaining information on what scientific aspects of the disease they believe they understand and what aspects of the disease they want to understand. To address aspects of the disease they want to understand, I ask that you investigate those topics and share what you have learned later.
 
+## Feedback
+Let me know how these go, and I am amenable to modifying this assignment. I think they are a good idea in theory, and I've been reaching out to my family and friends already offering to help them with understanding the science of this pandemic. Let me know what you think and how it goes.
+
 ## Approaching and Interviewing a Pandemic Interviews Interviewee
 Ask a potential interviewee if they have maybe 10–15 minutes of time to talk about the science of COVID-19 for your _Ecology and Evolution of Infectious Disease_ course. Tell them that the goal of the assignment is to open a door of communication between you and the interviewee about the science of the disease. When you sit down (IRL, on the phone, or over whichever medium you choose) and talk, among all that you talk about, I would life for you to minimally take note of two things:
 
