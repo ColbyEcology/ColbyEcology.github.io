@@ -2,6 +2,33 @@
 layout: page
 title: "Welcome to Ecological Modeling (BI382) at Colby College"
 ---
+### A message from quarantine
+This is where you may access the large number of relevant changes to the course syllabus and [schedule](Schedule) and plans on moving forward for remote learning through quarantine during a pandemic. The major changes to our syllabus are number any types of assignments, which I show below in the **Assessment and grade assignment** section. I also have changed office hours to accomodate your scheudles.
+
+### Statement of principles
+Statement of Principles for the Remainder of Spring 2020 Semester for *Ecological Modeling* (BI382):
+
+1. Neither you nor I signed up for this
+	- Neither of us signed up knowing the crisis that we'd be facing, not for the physical distancing, not of the abrupt end of our physical lives together on campus
+	- Neither of us signed up for an online class, not for teaching remotely, not for learning remotely, not for mastering new technologies, not for varied access to learning materials
+2. The humane option is the best option during a global crisis
+	- We are going to prioritize supporting each other as humans
+	- We are going to prioritize simple solutions that make sense for the most
+3. We cannot just do the same thing online that we did in class
+	- Some assignments are no longer effective (e.g., real-time/synchronous exchange of ideas during class discussions)
+	- Some expectations are no longer reasonable (e.g., Case Study Presentations)
+	- Some learning goals are no longer as feasible or as important
+4. We will foster intellectual nourishment, social connection, and personal accommodations through
+	- Accessible asynchronous content for diverse access, timezones, and contexts
+	- Optional synchronous discussion to learn together and combat isolation (Slack and Zoom)
+5. We will remain flexible and adjust to the situation
+	- Nobody know where this is going and how we'll need to adapt
+	- Everybody needs support and understanding in this unprecidented moment
+
+[Download as .pdf](/Misc/PandemicPrinciples_BI382.pdf)   
+
+<div align="right"><font size="2">
+Adapted from Brandon Bayne, UNC Chapel Hill (<a href = https://twitter.com/brandonbayne/status/1239336664176250880">Tweet</a>)</font></div>
 
 ### Course description
 Ecological Modelling is a course that is designed to help students learn theory and methods in mathematical and computational ecology. Collectively, these types quantitative approaches are central to the science of ecology for understanding, predicting, and making inferences about ecological patterns and processes. Both classic and contemporary topics will be covered, with an emphasis on using modern tools to analyze and present theory and data.

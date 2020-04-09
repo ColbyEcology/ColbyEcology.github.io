@@ -71,7 +71,7 @@ Although it is generally not correct to simply use the discrete approximation of
 **Updated 09 April**: For 7.10, use the SIR models 4a–4c. You can choose to:
 
 1. Use `ode()` and treat it as continuous time OR
-2. Use `ode()` and treat it as discrete (i.e., use `method = "iteration"` in `ode()` and change equations 4 to be discrete time, as they do in the problem.
+2. Use `ode()` and treat it as discrete (i.e., use `method = "iteration"` in `ode()` and change equations 4 to be discrete time) as they do in the problem.
 
 Please use $I_0 = 0.1$ as the initial value of $I$, and $R$ could be set to $0$.
 
