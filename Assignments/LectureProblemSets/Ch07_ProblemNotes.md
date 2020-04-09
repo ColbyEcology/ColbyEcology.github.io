@@ -67,6 +67,14 @@ Make two graphs here.
 ## 7.10
 Although it is generally not correct to simply use the discrete approximation of differential equations, sometimes the underlying processes involved in a model can be represented conveniently by doing so. In the case of equation set 4, such is the case (for a limited set of parameter values). For equation set 4 use the discrete approximation of the derivatives (e.g., the first equation would read $S_{t+1} = S_t – \beta S_tI_t$) to compute time series for all three variables (time $0-25$) for values of $b\beta = 0.8$ and $\nu = 0.3$. (Caution: Because of the discrete approximation, some values may go above $1.0$ or below $0$. Do not worry about that; it is a mathematical artifact. Just look at the overall pattern that emerges, and think about the biology.)
 
+---
+**Updated 09 April**: For 7.10, use the SIR models 4a–4c. You can choose to:
+
+1. Use `ode()` and treat it as continuous time OR
+2. Use `ode()` and treat it as discrete (i.e., use `method = "iteration"` in `ode()` and change equations 4 to be discrete time, as they do in the problem.
+
+Please use $I_0 = 0.1$ as the initial value of $I$, and $R$ could be set to $0$.
+
 ## 7.11
 Repeat exercise 7.10 for values of $\beta = 0.6$ and $\nu = 0.4$.
 
@@ -76,6 +84,9 @@ $$\frac{\mathrm{d}\log (I)}{\mathrm{d}t}$$
 for values of $S$ ranging from $0$ to $1$, with $\beta = 0.5$ and $\nu = 0.3$, and graph them against $S$. At what value of $S$ will the disease begin to decline?
 
 ---
+
+**Updated 09 April**: Please skip 7.12.
+
 Use equaiton 4b to plug in the parameter values. You are then plotting $S$ on the horizontal axis and $\frac{\mathrm{d}\log (I)}{\mathrm{d}t}$ on the vertical axis. For $I$ to be declining $\frac{\mathrm{d}\log (I)}{\mathrm{d}t}$ would be $\leq 0$.
 
 ## 7.13
