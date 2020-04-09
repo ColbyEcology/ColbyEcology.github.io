@@ -3,7 +3,7 @@ layout: page
 title: "Welcome to Ecological Modeling (BI382) at Colby College"
 ---
 ### A message from quarantine
-This is where you may access the large number of relevant changes to the course syllabus and [schedule](Schedule) and plans on moving forward for remote learning through quarantine during a pandemic. The major changes to our syllabus are number any types of assignments, which I show below in the **Assessment and grade assignment** section. I also have changed office hours to accomodate your scheudles.
+This is where you may access the large number of relevant changes to the course syllabus and [schedule](Schedule) and plans on moving forward for remote learning through quarantine during a pandemic. The major changes to our syllabus are number any types of assignments, which I show below in the **Assessment and grade assignment** section. I also have changed office hours to accomodate your scheudles; note the changes in the **Office hours** section below.
 
 ### Statement of principles
 Statement of Principles for the Remainder of Spring 2020 Semester for *Ecological Modeling* (BI382):
@@ -25,7 +25,7 @@ Statement of Principles for the Remainder of Spring 2020 Semester for *Ecologica
 	- Nobody know where this is going and how we'll need to adapt
 	- Everybody needs support and understanding in this unprecidented moment
 
-[Download as .pdf](/Misc/PandemicPrinciples_BI382.pdf)   
+[Download as .pdf](../Misc/PandemicPrinciples_BI382.pdf)   
 
 <div align="right"><font size="2">
 Adapted from Brandon Bayne, UNC Chapel Hill (<a href = https://twitter.com/brandonbayne/status/1239336664176250880">Tweet</a>)</font></div>
@@ -58,9 +58,14 @@ Labs: M, 1—4:00 PM, in Davis 308
 Discussions: TR, 9:30—10:45 AM, in Miller 205
 
 ### Office hours
+#### Pandemic office hours
+
+
+#### Pre-pandemic office hours
 T: 1–3 PM in Olin 216  
 R: 7–9 AM in Olin 216  
 F: 1–3 PM at Mary Low Coffeehouse (With the exception of 28 Feb. and 13 March, where the Biology Deptartment seminar is from 1–2 in Olin 01 and Office Hours will be from 2–4 PM.)
+
 ### Text
 * Required: *Population ecology: from first principles*, 2<sup>nd</sup> ed., 2013, by Vandermeer and Goldberg, Princeton University Press  
 * Optional: *A primer of ecology with R*, 2009, by Stevens, Springer Press
