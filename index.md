@@ -54,11 +54,20 @@ Office: Olin 216
 Office phone: 207-859-5746  
 
 ### Meetings for discussions and labs
+#### Pandemic meetings
+Optional during classtime: M, 1—4:00 PM; TR, 9:30—10:45 AM on Zoom: [link](https://colby.zoom.us/j/258767237)
+
+#### Pre-pandemic meetings
 Labs: M, 1—4:00 PM, in Davis 308  
 Discussions: TR, 9:30—10:45 AM, in Miller 205
 
 ### Office hours
 #### Pandemic office hours
+Optional office hours [Zoom link](https://colby.zoom.us/j/234278896):   
+M: 10 AM–noon EDT   
+T: 8–10 AM EDT   
+T: 1–3 PM EDT   
+W: 4–6 PM EDT
 
 
 #### Pre-pandemic office hours
@@ -71,6 +80,23 @@ F: 1–3 PM at Mary Low Coffeehouse (With the exception of 28 Feb. and 13 March,
 * Optional: *A primer of ecology with R*, 2009, by Stevens, Springer Press
 
 ### Assessment and grade assignment
+
+#### Pandemic assessment and grade assignment
+
+I am cutting the quizzes and problem sets (except for disease), but everything else will be graded the same. This means that the new sum of the course is 0.723. That will be the denominator for
+
+| Assignments          | Each  | No. | Proportion of the course (old) | Approx. proportion of the course (/0.723)  |
+| :------------------- | :---: | :-: | :----------------------: | :----------------------------------------------: |
+| Problem sets         | 0.035 |  6  |           0.210          |           0.290                                  |
+| Quizzes (individual) | 0.011 |  4  |           0.044          |           0.061                                  |
+| Quizzes (group)      | 0.011 |  4  |           0.044          |           0.061                                  |
+| Lab experiments      | 0.040 |  1  |           0.040          |           0.055                                  |
+| Lab reports          | 0.030 |  4  |           0.120          |           0.166                                  |
+| Remodeling project   | 0.240 |  1  |           0.240          |           0.332                                  |
+| Participation        | 0.025 |  1  |           0.025          |           0.035                                  |
+
+
+#### Pre-pandemic
 
 | Assignments          | Each  | No.  | Proportion of the course |
 | :------------------- | :---: | :--: | :----------------------: |
