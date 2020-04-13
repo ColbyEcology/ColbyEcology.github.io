@@ -1,246 +1,384 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>PandemicInterviews</title>
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
 
 
 <style type="text/css">
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    color: #737373;
-    background-color: white;
-    margin: 10px 13px 10px 13px;
-}
-table {
-	margin: 10px 0 15px 0;
-	border-collapse: collapse;
-}
-td,th {
-	border: 1px solid #ddd;
-	padding: 3px 10px;
-}
-th {
-	padding: 5px 10px;
-}
-
-a {
-    color: #0069d6;
-}
-a:hover {
-    color: #0050a3;
-    text-decoration: none;
-}
-a img {
-    border: none;
-}
-p {
-    margin-bottom: 9px;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #404040;
-    line-height: 36px;
-}
 h1 {
-    margin-bottom: 18px;
-    font-size: 30px;
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
 }
 h2 {
-    font-size: 24px;
+  font-size: 30px;
 }
 h3 {
-    font-size: 18px;
+  font-size: 24px;
 }
 h4 {
-    font-size: 16px;
+  font-size: 18px;
 }
 h5 {
-    font-size: 14px;
+  font-size: 16px;
 }
 h6 {
-    font-size: 13px;
+  font-size: 12px;
 }
-hr {
-    margin: 0 0 19px;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-}
-blockquote {
-    padding: 13px 13px 21px 15px;
-    margin-bottom: 18px;
-    font-family:georgia,serif;
-    font-style: italic;
-}
-blockquote:before {
-    content:"\201C";
-    font-size:40px;
-    margin-left:-10px;
-    font-family:georgia,serif;
-    color:#eee;
-}
-blockquote p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 18px;
-    margin-bottom: 0;
-    font-style: italic;
-}
-code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
-}
-code {
-    background-color: #fee9cc;
-    color: rgba(0, 0, 0, 0.75);
-    padding: 1px 3px;
-    font-size: 12px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-pre {
-    display: block;
-    padding: 14px;
-    margin: 0 0 18px;
-    line-height: 16px;
-    font-size: 11px;
-    border: 1px solid #d9d9d9;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-pre code {
-    background-color: #fff;
-    color:#737373;
-    font-size: 11px;
-    padding: 0;
-}
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
-}
-kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font-size: 11px;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb;
-}
-* {
-	-webkit-print-color-adjust: exact;
-}
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:10px auto;
-    }
-}
-@media print {
-	table, pre {
-		page-break-inside: avoid;
-	}
-  body {
-    margin: 2cm; 
-  }
+.table th:not([align]) {
+  text-align: left;
 }
 </style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
 
 
 </head>
 
 <body>
 
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Ecology and Evolution of Infectious Disease</a>
+</li>
+<li>
+  <a href="pandemic_syllabus.html">Pandemic Syllabus</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
 <p><link rel="stylesheet" href="CS.css"></p>
-
-<p><br />
-<br /></p>
-
-<h1 id="toc_0">Pandemic Interviews Assignment Description</h1>
-
-<h2 id="toc_1">Learning goals of the Pandemic Interviews</h2>
-
+<p><br /> <br /></p>
+<div id="pandemic-interviews-assignment-description" class="section level1">
+<h1>Pandemic Interviews Assignment Description</h1>
+<div id="learning-goals-of-the-pandemic-interviews" class="section level2">
+<h2>Learning goals of the Pandemic Interviews</h2>
 <p>Transitioning to remote learning means that we need to transition how learning happens. One way that I have chosen to do this over the next five weeks is through an interview assignment. The learning goals behind this assignment are twofold:</p>
-
-<ol>
-<li><strong>Scientific conversation and communication.</strong> Public discourse about science is important. We have seen disastrous consequences when we dismiss or ignore science, and it is up to all of us scientists or those who study science to keep a constant, healthy dialog with non-scientists. We can never have enough practice, and through interviewing people, I am hoping that this gives you some casual, low-stakes practice talking about the science of disease. (As an aside, if you want to watch a documentary on the communication of evolution to the public, you can watch <a href="https://colby.kanopy.com/video/flock-dodos-evolution-intelligent-design-circus">Flock of Dodos: the Evolution-Intelligent Design Circus</a> through Colby&#39;s library.)</li>
-<li><strong>Independent investigation</strong>. Part of this assignment will require you to search for scientifically-valid information, which isn&#39;t always easy and a skill that is learned and gained through practice.</li>
+<ol style="list-style-type: decimal">
+<li><strong>Scientific conversation and communication.</strong> Public discourse about science is important. We have seen disastrous consequences when we dismiss or ignore science, and it is up to all of us scientists or those who study science to keep a constant, healthy dialog with non-scientists. We can never have enough practice, and through interviewing people, I am hoping that this gives you some casual, low-stakes practice talking about the science of disease. (As an aside, if you want to watch a documentary on the communication of evolution to the public, you can watch <a href="https://colby.kanopy.com/video/flock-dodos-evolution-intelligent-design-circus">Flock of Dodos: the Evolution-Intelligent Design Circus</a> through Colby’s library.)</li>
+<li><strong>Independent investigation</strong>. Part of this assignment will require you to search for scientifically-valid information, which isn’t always easy and a skill that is learned and gained through practice.</li>
 </ol>
-
-<h2 id="toc_2">Pandemic Interviews Summary</h2>
-
+</div>
+<div id="pandemic-interviews-summary" class="section level2">
+<h2>Pandemic Interviews Summary</h2>
 <p>For this assignment, I would like for you to interview someone about the science if COVID-19 pandemic. I mostly would like for you to make a connection with someone in a low-stakes and casual way. I think it is a great way to engage with the science of COVID-19 and taking advantage of your new learning environment that is remote from Colby. In sum, I want you to engage with the interviewee respectfully and earnestly, and ultimately attaining information on what scientific aspects of the disease they believe they understand and what aspects of the disease they want to understand. To address aspects of the disease they want to understand, I ask that you investigate those topics and share what you have learned later.</p>
-
-<h2 id="toc_3">Feedback</h2>
-
-<p>Let me know how these go, and I am amenable to modifying this assignment. I think they are a good idea in theory, and I&#39;ve been reaching out to my family and friends already offering to help them with understanding the science of this pandemic. Let me know what you think and how it goes.</p>
-
-<h2 id="toc_4">Approaching and Interviewing a Pandemic Interviews Interviewee</h2>
-
+</div>
+<div id="feedback" class="section level2">
+<h2>Feedback</h2>
+<p>Let me know how these go, and I am amenable to modifying this assignment. I think they are a good idea in theory, and I’ve been reaching out to my family and friends already offering to help them with understanding the science of this pandemic. Let me know what you think and how it goes.</p>
+</div>
+<div id="approaching-and-interviewing-a-pandemic-interviews-interviewee" class="section level2">
+<h2>Approaching and Interviewing a Pandemic Interviews Interviewee</h2>
 <p>Ask a potential interviewee if they have maybe 10–15 minutes of time to talk about the science of COVID-19 for your <em>Ecology and Evolution of Infectious Disease</em> course. Tell them that the goal of the assignment is to open a door of communication between you and the interviewee about the science of the disease. When you sit down (IRL, on the phone, or over whichever medium you choose) and talk, among all that you talk about, I would life for you to minimally take note of two things:</p>
-
-<ol>
+<ol style="list-style-type: decimal">
 <li>What scientific aspects of the disease they believe they understand and</li>
 <li>What scientific aspects of the disease they want to or not understand.</li>
 </ol>
-
-<p>Please record what they say about these two points. After the interview is over. I would like for you to investigate and find answer to what they want to or not understand. Record what you found as well. That&#39;s it.</p>
-
-<h2 id="toc_5">Format</h2>
-
+<p>Please record what they say about these two points. After the interview is over. I would like for you to investigate and find answer to what they want to or not understand. Record what you found as well. That’s it.</p>
+</div>
+<div id="format" class="section level2">
+<h2>Format</h2>
 <p>Please conduct one interview per week and submit all five the last week of classes, no later than 08 May.</p>
+</div>
+<div id="timeline" class="section level2">
+<h2>Timeline</h2>
+<p>You’ll notice on the detailed calendar (<a href="https://docs.google.com/spreadsheets/d/1b7YdttuId3FHTzj3wI1jZufUSJuX7eUtodsk9KdEBmM/edit#gid=0">link</a>) that I ask that you conduct one interview per week for five weeks. I suggest doing the interview on Monday (perhaps during regularly-scheduled class time) and investigating and reporting back to your interviewee by Friday.</p>
+</div>
+</div>
 
-<h2 id="toc_6">Timeline</h2>
-
-<p>You&#39;ll notice on the detailed calendar (<a href="https://docs.google.com/spreadsheets/d/1b7YdttuId3FHTzj3wI1jZufUSJuX7eUtodsk9KdEBmM/edit#gid=0">link</a>) that I ask that you conduct one interview per week for five weeks. I suggest doing the interview on Monday (perhaps during regularly-scheduled class time) and investigating and reporting back to your interviewee by Friday.</p>
 
 
 
-<script type="text/x-mathjax-config">
-(function () {
+</div>
 
-MathJax.Hub.Config({
-	'showProcessingMessages': false,
-	'messageStyle': 'none'
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
 });
 
-if (typeof MathJaxListener !== 'undefined') {
-	MathJax.Hub.Register.StartupHook('End', function () {
-		MathJaxListener.invokeCallbackForKey_('End');
-	});
-}
 
-})();
 </script>
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<!-- tabsets -->
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 </body>
-
 </html>

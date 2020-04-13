@@ -63,7 +63,7 @@ Discussions: TR, 9:30—10:45 AM, in Miller 205
 
 ### Office hours
 #### Pandemic office hours
-Optional office hours [Zoom link](https://colby.zoom.us/j/234278896):   
+Optional office hours: [Zoom link](https://colby.zoom.us/j/234278896)     
 M: 10 AM–noon EDT   
 T: 8–10 AM EDT   
 T: 1–3 PM EDT   
